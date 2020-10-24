@@ -6,16 +6,22 @@
 # ---------------------------------------------------------------   #
 #                         FUNCTION INFO                             #
 # ---------------------------------------------------------------   #
-#       Uninstall required scoreboards.                             #
+#       Install required scoreboards.                               #
 #                                                                   #
 #####################################################################
 
-scoreboard objectives remove sr_boolean
-scoreboard objectives remove sr_int
-scoreboard objectives remove sr_is_radiated
-scoreboard objectives remove sr_raycast
-scoreboard objectives remove sr_has_equipment
+# Int values
+scoreboard objectives add sr_int dummy
 
-tellraw @a [{"text":"Solar Radiation Datapack uninstalled. \nUse /datapack enable \"file/... \" to reinstall","color":"yellow"}]
+# Player radiation status
+scoreboard objectives add sr_is_radiated dummy
 
-datapack disable "file/sr"
+# Raycast
+scoreboard objectives add sr_raycast dummy
+
+# Has full hazmat suit
+scoreboard objectives add sr_has_equipment dummy
+
+
+# Set Constants
+scoreboard players set $_end_of_day sr_int 12000

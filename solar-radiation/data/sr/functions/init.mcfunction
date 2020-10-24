@@ -11,7 +11,7 @@
 #####################################################################
 
 # Initial install required scoreboard objectives
-function sr:scripts/install
+function sr:install
 
 # Start exposure check loop.
 function sr:scripts/exposure_handler

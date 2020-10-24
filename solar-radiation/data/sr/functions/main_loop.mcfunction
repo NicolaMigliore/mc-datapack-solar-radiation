@@ -14,4 +14,4 @@
 scoreboard objectives add sr_boolean dummy
 
 # Initialize datapack
-execute unless score $init sr_boolean matches 1 run function sr:scripts/init
+execute unless score $init sr_boolean matches 1 run function sr:init
