@@ -6,20 +6,17 @@
 # ---------------------------------------------------------------   #
 #                         FUNCTION INFO                             #
 # ---------------------------------------------------------------   #
-#       Main loop function gets called every game tick.             #
+#       Script triggers itself and checks                           #
+#       the block above the triggering position,                    #
+#       effectively checking one block higher every "loop".         #
 #                                                                   #
 #####################################################################
 
-# sr_boolean is a scoreboard that will be used to store boolean vars.
-scoreboard objectives add sr_boolean dummy
+# NOTE: Scoreboard "sr_raycast" defines the block height that is being checked.
 
-# Initialize datapack
-execute unless score $init sr_boolean matches 1 run function sr:init
+# Increment the block height to check by 1,
+scoreboard players add @s sr_raycast 1
 
-# Check for players equipment
-
-# Check for time of day
-
-# Apply effect if player is exposed and has no equipment
-# execute as @a if score @s sr_raycast matches 254 if score @s sr_has equipment matches 0 if score $is_day sr_boolean matches 1 run effect give @s poison 5 1
-execute as @a if score @s sr_raycast matches 254 run effect give @s poison 5 1
+# If the block above the execution is not "all_but_air"
+# And raycast has not reached the top level (254) --> run script again.
+execute positioned ~ ~1 ~ unless block ~ ~ ~ #sr:all_but_air unless score @s sr_raycast matches 254.. run function sr:scripts/raycast

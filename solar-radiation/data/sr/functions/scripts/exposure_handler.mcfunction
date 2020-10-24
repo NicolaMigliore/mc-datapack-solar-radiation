@@ -6,20 +6,15 @@
 # ---------------------------------------------------------------   #
 #                         FUNCTION INFO                             #
 # ---------------------------------------------------------------   #
-#       Main loop function gets called every game tick.             #
+#       Check if players are exposed to radiation                   #
+#       and update scoreboard.                                      #
 #                                                                   #
 #####################################################################
 
-# sr_boolean is a scoreboard that will be used to store boolean vars.
-scoreboard objectives add sr_boolean dummy
+# Raycast
+scoreboard players reset @a sr_raycast 
+execute as @a at @s store result score @s sr_raycast run data get entity @s Pos[1] 1
 
-# Initialize datapack
-execute unless score $init sr_boolean matches 1 run function sr:init
+execute as @a at @s positioned ~ ~1 ~ run function sr:scripts/raycast
 
-# Check for players equipment
-
-# Check for time of day
-
-# Apply effect if player is exposed and has no equipment
-# execute as @a if score @s sr_raycast matches 254 if score @s sr_has equipment matches 0 if score $is_day sr_boolean matches 1 run effect give @s poison 5 1
-execute as @a if score @s sr_raycast matches 254 run effect give @s poison 5 1
+schedule function sr:scripts/exposure_handler 1s
