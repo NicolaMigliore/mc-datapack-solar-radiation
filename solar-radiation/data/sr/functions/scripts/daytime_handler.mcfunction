@@ -6,21 +6,12 @@
 # ---------------------------------------------------------------   #
 #                         FUNCTION INFO                             #
 # ---------------------------------------------------------------   #
-#       Main loop function gets called every game tick.             #
+#       Check the rime of day and set scoreboard is_day             #
 #                                                                   #
 #####################################################################
 
-# sr_boolean is a scoreboard that will be used to store boolean vars.
-scoreboard objectives add sr_boolean dummy
+# Update daytime variable
+execute store result score $daytime sr_int run time query daytime
 
-# Initialize datapack
-execute unless score $init sr_boolean matches 1 run function sr:init
-
-# Check for players equipment
-execute as @a run function sr:scripts/equipment_handler
-
-# Check for time of day
-function sr:scripts/daytime_handler
-
-# Apply effect if player is exposed and has no equipment
-  execute as @a if score @s sr_raycast matches 254 if score @s sr_has_equipment matches 0 if score $is_day sr_boolean matches 1 run effect give @s poison 5 1
+# Set $is_day variable
+execute store success score $is_day sr_boolean if score $daytime sr_int <= $_end_of_day sr_int
