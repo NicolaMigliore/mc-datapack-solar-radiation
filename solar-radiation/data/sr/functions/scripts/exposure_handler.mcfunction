@@ -11,6 +11,9 @@
 #                                                                   #
 #####################################################################
 
+# Reset player current shelter thickness
+scoreboard players set @a sr_cur_shelter 0
+
 # Raycast
 scoreboard players reset @a sr_raycast 
 execute as @a at @s store result score @s sr_raycast run data get entity @s Pos[1] 1
