@@ -1,0 +1,23 @@
+{
+	"type": "crafting_shaped",
+	"pattern": [
+        "LIL",
+        "IGI",
+        "LIL"
+	],
+	"key": {
+		"L": {
+			"item": "minecraft:leather"
+        },
+        "I": {
+			"item": "minecraft:iron_ingot"
+        },
+        "G": {
+            "item": "minecraft:glass"
+        }
+	},
+	"result": {
+		"item": "minecraft:chainmail_helmet",
+		"count": 1
+	}
+}
