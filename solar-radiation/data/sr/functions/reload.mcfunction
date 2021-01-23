@@ -12,3 +12,6 @@
 
 # Init message
 tellraw @a [{"text":"Solar Radiation Datapack reloading...", "color":"#77AAAA"}]
+
+# Give intro book to players
+execute as @a run function sr:scripts/give_intro_book

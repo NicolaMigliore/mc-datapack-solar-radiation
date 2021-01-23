@@ -21,3 +21,6 @@ tellraw @a [{"text":"Solar Radiation Datapack initialized.", "color":"#77AAAA"}]
 
 # Initialize = true
 scoreboard players set $init sr_boolean 1
+
+# Give intro book to players
+execute as @a run function sr:scripts/give_intro_book
