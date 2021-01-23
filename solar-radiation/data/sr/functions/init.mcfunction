@@ -24,3 +24,5 @@ scoreboard players set $init sr_boolean 1
 
 # Give intro book to players
 execute as @a run function sr:scripts/give_intro_book
+
+time set night
