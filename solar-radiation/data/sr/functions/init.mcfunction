@@ -24,5 +24,12 @@ scoreboard players set $init sr_boolean 1
 
 # Give intro book to players
 execute as @a run function sr:scripts/give_intro_book
+# Set player rad level
+scoreboard players set @a sr_rad_levels 0
+scoreboard players set @a sr_is_radiated 0
 
-time set night
+time set 12001
+
+# FOR DEBUG
+scoreboard objectives setdisplay sidebar sr_rad_levels
+scoreboard objectives setdisplay list sr_is_radiated

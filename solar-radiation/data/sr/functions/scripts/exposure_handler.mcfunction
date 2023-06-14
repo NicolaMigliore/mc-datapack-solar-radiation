@@ -10,9 +10,10 @@
 #       and update scoreboard.                                      #
 #                                                                   #
 #####################################################################
+# say "DEBUG: Called exposure_handler"
 
 # Reset player current shelter thickness
-scoreboard players set @a sr_cur_shelter 0
+scoreboard players set @a sr_cur_cover_thickness 0
 
 # Raycast
 scoreboard players reset @a sr_raycast 
