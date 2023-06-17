@@ -38,6 +38,5 @@ scoreboard players set $_sr_rad_level_1 sr_int 10
 scoreboard players set $_sr_rad_level_2 sr_int 20
 scoreboard players set $_sr_rad_level_3 sr_int 30
 scoreboard players set $_sr_rad_level_4 sr_int 60
-scoreboard players set $_sr_rad_level_5 sr_int 120
 
 tellraw @a [{"text":"Solar Radiation Datapack installed.","color":"yellow"}]

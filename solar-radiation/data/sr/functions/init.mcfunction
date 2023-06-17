@@ -30,6 +30,9 @@ scoreboard players set @a sr_is_radiated 0
 
 time set 12001
 
+# Schedule main loop
+schedule function sr:main_loop 1s
+
 # FOR DEBUG
 scoreboard objectives setdisplay sidebar sr_rad_levels
 scoreboard objectives setdisplay list sr_is_radiated

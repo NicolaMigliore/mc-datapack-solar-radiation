@@ -33,10 +33,18 @@ execute as @a if score @s sr_is_radiated matches 0 if score @s sr_rad_levels mat
 # execute as @a if score @s sr_raycast matches 320 if score @s sr_has_equipment matches 0 if score $is_day sr_boolean matches 1 run effect give @s poison 5 1
 
 # Add effects
-execute as @a if score @s sr_rad_levels >= $_sr_rad_level_1 sr_int run effect give @a minecraft:mining_fatigue 30
-execute as @a if score @s sr_rad_levels >= $_sr_rad_level_2 sr_int run effect give @a minecraft:nausea 10
-execute as @a if score @s sr_rad_levels >= $_sr_rad_level_3 sr_int run effect give @a minecraft:poison 5
+execute as @a if score @s sr_rad_levels >= $_sr_rad_level_1 sr_int run function sr:scripts/set_rad_level_1
+execute as @a if score @s sr_rad_levels >= $_sr_rad_level_2 sr_int run function sr:scripts/set_rad_level_2
+execute as @a if score @s sr_rad_levels >= $_sr_rad_level_3 sr_int run function sr:scripts/set_rad_level_3
+execute as @a if score @s sr_rad_levels >= $_sr_rad_level_4 sr_int run function sr:scripts/set_rad_level_4
+# execute as @a if score @s sr_rad_levels >= $_sr_rad_level_1 sr_int run effect give @s minecraft:mining_fatigue 30
+# run effect give @s minecraft:slowness 30
+# execute as @a if score @s sr_rad_levels >= $_sr_rad_level_2 sr_int run effect give @s minecraft:nausea 10
+# execute as @a if score @s sr_rad_levels >= $_sr_rad_level_3 sr_int run effect give @s minecraft:poison 5
 # Remove effects
 # execute as @a if score @s sr_rad_levels matches 0 run effect clear @a minecraft:mining_fatigue
 # execute as @a if score @s sr_rad_levels < $_sr_rad_level_1 sr_int run effect clear @a minecraft:nausea
 # execute as @a if score @s sr_rad_levels < $_sr_rad_level_2 sr_int run effect clear @a minecraft:poison
+
+# Restart loop
+schedule function sr:main_loop 1s
