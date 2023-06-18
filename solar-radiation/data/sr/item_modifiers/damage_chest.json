@@ -1,0 +1,33 @@
+[
+  {
+    "function": "minecraft:copy_nbt",
+    "source": {
+      "type": "minecraft:storage",
+      "source": "sr:data"
+    },
+    "ops": [
+      {
+        "source": "Damage",
+        "target": "Damage",
+        "op": "replace"
+      }
+    ]
+  },
+  {
+    "function": "minecraft:set_count",
+    "count": 0,
+    "conditions": [
+      {
+        "condition": "minecraft:entity_properties",
+        "entity": "this",
+        "predicate": {
+          "equipment": {
+            "chest": {
+              "durability": 1
+            }
+          }
+        }
+      }
+    ]
+  }
+]

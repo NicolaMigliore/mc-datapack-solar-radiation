@@ -30,4 +30,5 @@ execute as @s if score @s sr_found_cover matches 1 run scoreboard players add @s
 # execute as @s if block  ~1 ~ #sr:all_but_air say "valid Block found"
 
 # If raycast has not reached the top level (320) and shelter value is not valid --> run script again.
-execute positioned ~ ~1 ~ unless score @s sr_cur_cover_thickness >= $_min_shelter sr_int unless score @s sr_raycast matches 320.. run function sr:scripts/raycast
+
+execute positioned ~ ~1 ~ unless score @s sr_cur_cover_thickness >= $_min_shelter sr_int unless score @s sr_raycast >= $_sr_world_height sr_int run function sr:scripts/raycast
