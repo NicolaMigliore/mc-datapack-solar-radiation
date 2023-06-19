@@ -28,11 +28,15 @@ execute as @a run function sr:scripts/give_intro_book
 scoreboard players set @a sr_rad_levels 0
 scoreboard players set @a sr_is_radiated 0
 
+# Set scene
 time set 12001
+effect clear @a
+
+# Init Radbar
+function sr:scripts/radbar/radbar_init
 
 # Schedule main loop
 schedule function sr:main_loop 1s
 
 # FOR DEBUG
 scoreboard objectives setdisplay sidebar sr_rad_levels
-scoreboard objectives setdisplay list sr_is_radiated

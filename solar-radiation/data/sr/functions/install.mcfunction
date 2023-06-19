@@ -39,8 +39,12 @@ scoreboard players set $_end_of_day sr_int 12000
 scoreboard players set $_sr_world_height sr_int 320
 scoreboard players set $_min_shelter sr_int 3
 scoreboard players set $_sr_rad_level_1 sr_int 10
-scoreboard players set $_sr_rad_level_2 sr_int 20
-scoreboard players set $_sr_rad_level_3 sr_int 30
-scoreboard players set $_sr_rad_level_4 sr_int 60
+scoreboard players set $_sr_rad_level_2 sr_int 30
+scoreboard players set $_sr_rad_level_3 sr_int 60
+scoreboard players set $_sr_rad_level_4 sr_int 90
+scoreboard players set $_sr_rad_level_5 sr_int 120
+scoreboard players set $_sr_rad_level_6 sr_int 1800
+scoreboard players set $_sr_max_rad_level sr_int 180
+scoreboard players set $_sr_max_player_count sr_int 4
 
 tellraw @a [{"text":"Solar Radiation Datapack installed.","color":"yellow"}]

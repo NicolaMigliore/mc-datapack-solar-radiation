@@ -9,13 +9,16 @@ Solar Radiation Datapack. Add a layer of challenge to minecraft survival, by mak
     - Tinted glass counts as a non transparent block
 - More time you spend in the sun more radiation you will accumulate
 - There are 4 different radiation levels, with different effects:
-    - Level 1: Slowness and mining fatigue
-    - Level 2: Nausea and hunger
-    - Level 3: Poison and glowing
-    - Level 4: Wither, speed, jump boost and haste
+    - Level 1: Slowness and glow
+    - Level 2: Mining fatigue
+    - Level 3: Hunger
+    - Level 4: Nausea
+    - Level 5: Poison
+    - Level 6: Wither
 
 
-## Notes
+
+Current implementation will work for 4 players. This should be updated to manage 20 players.
 
 ### Recipes
 
@@ -28,3 +31,4 @@ Some notes of features to implement.
 2. Radiation should be transferable between players. If a player is radiated and comes within 5 blocks of another player the radiation should spread (NOTE: avoid then looping between players)
 3. Radiation should kill nearby animals. If a player is radiated ad comes within 5 blocks of an animal, the animal should die.
 4. Check weather. Players should be allowed to go outside when it rains.
+5. Check every loop if the current number of players exedes the max player count. if so, send a message in chat and stop the *sr:scripts/radbar/assign_id* from running

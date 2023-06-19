@@ -6,9 +6,9 @@
 # ---------------------------------------------------------------   #
 #                         FUNCTION INFO                             #
 # ---------------------------------------------------------------   #
-#       Set player radiation effects for rad level 2.               #
+#       Set player radiation effects for rad level 1.               #
 #                                                                   #
 #####################################################################
 
-execute as @s unless score @s sr_rad_levels >= $_sr_rad_level_4 sr_int run effect give @s minecraft:nausea 10
-effect give @s minecraft:hunger 30
+effect give @s minecraft:slowness 30
+effect give @s minecraft:glowing 30
