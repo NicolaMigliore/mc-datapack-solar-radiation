@@ -16,7 +16,6 @@ scoreboard objectives add sr_int dummy
 scoreboard objectives add sr_boolean dummy
 
 # Radiation levels of players
-scoreboard objectives add sr_is_radiated dummy
 scoreboard objectives add sr_rad_levels dummy
 
 # Raycast
@@ -24,7 +23,6 @@ scoreboard objectives add sr_raycast dummy
 scoreboard objectives add sr_found_cover dummy
 
 # Equipment management
-scoreboard objectives add sr_has_equipment dummy
 scoreboard objectives add sr_damage_equipment dummy
 scoreboard objectives add sr_damage_levels dummy
 

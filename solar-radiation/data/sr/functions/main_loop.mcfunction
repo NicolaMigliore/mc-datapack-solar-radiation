@@ -9,20 +9,23 @@
 #       Main loop function gets called every game tick.             #
 #                                                                   #
 #####################################################################
-# # sr_boolean is a scoreboard that will be used to store boolean vars.
-# scoreboard objectives add sr_boolean dummy
-
 # Initialize datapack
 execute unless score $init sr_boolean matches 1 run function sr:init
-
-# Check for players equipment
-execute as @a if score $is_day sr_boolean matches 1 run function sr:scripts/equipment_handler
 
 # Check for time of day
 function sr:scripts/daytime_handler
 
+# Start exposure check loop and manage tag "not_covered"
+execute as @a if score $is_day sr_boolean matches 1 run function sr:scripts/exposure_handler
+
+# Check for players equipment
+execute as @a[tag=not_covered] run function sr:scripts/equipment_handler
+
+#Update radiation exposure status
+execute as @s[tag=not_covered,tag=!sr_has_equipment] if score $is_day sr_boolean matches 1 run tag @s add sr_is_radiated
+
 # Update radiation levels
-function sr:scripts/radiation/radiation_manager
+execute as @a run function sr:scripts/radiation/radiation_manager
 
 # Run radbar
 function sr:scripts/radbar/radbar_main

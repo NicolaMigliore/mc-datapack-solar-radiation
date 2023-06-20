@@ -10,15 +10,14 @@
 #       and update scoreboard.                                      #
 #                                                                   #
 #####################################################################
-# say "DEBUG: Called exposure_handler"
-
 # Reset player current shelter thickness
-scoreboard players set @a sr_cur_cover_thickness 0
+scoreboard players set @s sr_cur_cover_thickness 0
 
 # Raycast
-scoreboard players reset @a sr_raycast 
-execute as @a at @s store result score @s sr_raycast run data get entity @s Pos[1] 1
+scoreboard players reset @s sr_raycast
+execute at @s store result score @s sr_raycast run data get entity @s Pos[1] 1
+execute at @s positioned ~ ~1 ~ run function sr:scripts/raycast
 
-execute as @a at @s positioned ~ ~1 ~ run function sr:scripts/raycast
-
-schedule function sr:scripts/exposure_handler 1s
+# If minimum cover thickess is matched, add tag
+execute if score @s sr_cur_cover_thickness >= $_min_shelter sr_int run tag @s remove not_covered
+execute if score @s sr_cur_cover_thickness < $_min_shelter sr_int run tag @s add not_covered
