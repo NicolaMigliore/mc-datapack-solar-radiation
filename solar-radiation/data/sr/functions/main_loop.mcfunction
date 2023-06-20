@@ -22,7 +22,10 @@ execute as @a if score $is_day sr_boolean matches 1 run function sr:scripts/expo
 execute as @a[tag=not_covered] run function sr:scripts/equipment_handler
 
 #Update radiation exposure status
-execute as @s[tag=not_covered,tag=!sr_has_equipment] if score $is_day sr_boolean matches 1 run tag @s add sr_is_radiated
+execute as @a[tag=not_covered,tag=!sr_has_equipment] if score $is_day sr_boolean matches 1 run tag @s add sr_is_radiated
+execute as @a[tag=!not_covered] run tag @s remove sr_is_radiated
+execute as @a[tag=sr_has_equipment] run tag @s remove sr_is_radiated
+execute as @a if score $is_day sr_boolean matches 0 run tag @s remove sr_is_radiated
 
 # Update radiation levels
 execute as @a run function sr:scripts/radiation/radiation_manager
