@@ -32,8 +32,11 @@ effect clear @a
 # Init Radbar
 function sr:scripts/radbar/radbar_init
 
+# Init Decontamination cauldron
+function sr:scripts/decontamination/decont_init
+
 # Schedule main loop
 schedule function sr:main_loop 1s
 
 # FOR DEBUG
-scoreboard objectives setdisplay sidebar sr_rad_levels
+scoreboard objectives setdisplay sidebar sr_item_stacks

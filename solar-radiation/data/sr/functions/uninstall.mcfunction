@@ -21,4 +21,11 @@ scoreboard objectives remove sr_cur_cover_thickness
 
 tellraw @a [{"text":"Solar Radiation Datapack uninstalled. \nUse /datapack enable \"file/sr \" to reinstall","color":"yellow"}]
 
+# Uninstall Radbar
+function sr:scripts/radbar/radbar_uninstall
+
+# Uninstall Decontamination cauldron
+function sr:scripts/decontamination/decont_uninstall
+
+
 datapack disable "file/sr"

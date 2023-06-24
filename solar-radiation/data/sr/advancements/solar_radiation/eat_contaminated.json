@@ -1,0 +1,40 @@
+{
+  "parent": "sr:solar_radiation/root",
+  "criteria": {
+    "carrot": {
+      "conditions": {
+        "item": {
+          "items": [
+            "minecraft:carrot"
+          ],
+          "nbt":"{CustomModelData:1918002}"
+        }
+      },
+      "trigger": "minecraft:consume_item"
+    }
+  },
+  "display": {
+    "title": {
+      "text": "That's nasty!"
+    },
+    "description": {
+      "text": "Eat some radiated food"
+    },
+    "announce_to_chat": true,
+    "frame": "task",
+    "hidden": false,
+    "icon": {
+      "item": "minecraft:carrot",
+      "nbt": "{CustomModelData:1918002}"
+    },
+    "show_toast": true
+  },
+  "requirements": [
+    [
+      "carrot"
+    ]
+  ],
+  "rewards": {
+    "function": "sr:scripts/decontamination/eat_contaminated"
+  }
+}

@@ -32,6 +32,8 @@ execute as @a run function sr:scripts/radiation/radiation_manager
 
 # Run radbar
 function sr:scripts/radbar/radbar_main
+# Run Decontamination
+function sr:scripts/decontamination/decont_main
 
 # Restart loop
 schedule function sr:main_loop 1s
