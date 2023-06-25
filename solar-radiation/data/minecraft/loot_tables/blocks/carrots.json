@@ -17,7 +17,7 @@
       "functions": [
         {
           "function": "minecraft:set_nbt",
-          "tag": "{CustomModelData:1918002}"
+          "tag": "{CustomModelData:1918002,display:{Name:'[{\"text\":\"Contaminated Carrot\",\"italic\":false}]',Lore:['[{\"text\":\"Requires decontamination\",\"italic\":false,\"color\":\"dark_purple\"}]','[{\"text\":\"to be fully eatable\",\"italic\":false,\"color\":\"dark_purple\"}]']}}"
         }
       ],
       "rolls": 1.0
@@ -53,7 +53,7 @@
       "functions": [
         {
           "function": "minecraft:set_nbt",
-          "tag": "{CustomModelData:1918002}"
+          "tag": "{CustomModelData:1918002,display:{Name:'[{\"text\":\"Contaminated Carrot\",\"italic\":false}]',Lore:['[{\"text\":\"Requires decontamination\",\"italic\":false,\"color\":\"dark_purple\"}]','[{\"text\":\"to be fully eatable\",\"italic\":false,\"color\":\"dark_purple\"}]']}}"
         }
       ],
       "rolls": 1.0
