@@ -1,0 +1,20 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "category": "misc",
+    "key": {
+      "#": {
+        "item": "minecraft:wheat"
+      },
+      "p": {
+        "item": "minecraft:poisonous_potato"
+      }
+    },
+    "pattern": [
+      "p  ",
+      "###"
+    ],
+    "result": {
+      "item": "minecraft:bread"
+    },
+    "show_notification": true
+  }

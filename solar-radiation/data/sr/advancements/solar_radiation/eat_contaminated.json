@@ -4,10 +4,17 @@
     "carrot": {
       "conditions": {
         "item": {
-          "items": [
-            "minecraft:carrot"
-          ],
-          "nbt":"{CustomModelData:1918002}"
+          "items": ["minecraft:carrot"],
+          "nbt": "{CustomModelData:1918002}"
+        }
+      },
+      "trigger": "minecraft:consume_item"
+    },
+    "potato": {
+      "conditions": {
+        "item": {
+          "items": ["minecraft:potato"],
+          "nbt": "{CustomModelData:1918004}"
         }
       },
       "trigger": "minecraft:consume_item"
@@ -30,9 +37,7 @@
     "show_toast": true
   },
   "requirements": [
-    [
-      "carrot"
-    ]
+    ["carrot","potato"]
   ],
   "rewards": {
     "function": "sr:scripts/decontamination/eat_contaminated"
