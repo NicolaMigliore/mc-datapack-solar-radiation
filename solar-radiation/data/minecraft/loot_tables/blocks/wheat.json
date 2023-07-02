@@ -35,7 +35,7 @@
       "functions": [
         {
           "function": "minecraft:set_nbt",
-          "tag": "{CustomModelData:1918003,display:{Name:'[{\"text\":\"Contaminated Wheat\",\"italic\":false}]',Lore:['[{\"text\":\"Requires decontamination\",\"italic\":false,\"color\":\"dark_purple\"}]','[{\"text\":\"when cooking\",\"italic\":false,\"color\":\"dark_purple\"}]']}}"
+          "tag": "{CustomModelData:1918003}"
         }
       ],
       "rolls": 1.0
@@ -71,7 +71,7 @@
       "functions": [
         {
           "function": "minecraft:set_nbt",
-          "tag": "{CustomModelData:1918003,display:{Name:'[{\"text\":\"Contaminated Wheat\",\"italic\":false}]',Lore:['[{\"text\":\"Requires decontamination\",\"italic\":false,\"color\":\"dark_purple\"}]','[{\"text\":\"when cooking\",\"italic\":false,\"color\":\"dark_purple\"}]']}}"
+          "tag": "{CustomModelData:1918003}"
         }
       ],
       "rolls": 1.0
