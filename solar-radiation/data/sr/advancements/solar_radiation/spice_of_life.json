@@ -1,0 +1,32 @@
+{
+  "display": {
+    "icon": {
+      "item": "minecraft:poisonous_potato",
+      "nbt": "{CustomModelData:1918001}"
+    },
+    "title": "The spice of life",
+    "description": "Prepare some decontamination powder",
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "parent": "sr:solar_radiation/thats_nasty",
+  "criteria": {
+    "get_powder": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": ["minecraft:poisonous_potato"],
+            "nbt": "{CustomModelData:1918001}"
+          }
+        ]
+      }
+    }
+  },
+  "requirements": [["get_powder"]],
+  "rewards": {
+    "recipes": ["minecraft:carrot", "minecraft:bread"]
+  }
+}

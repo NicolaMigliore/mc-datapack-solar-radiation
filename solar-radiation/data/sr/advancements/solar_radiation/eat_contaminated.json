@@ -20,22 +20,6 @@
       "trigger": "minecraft:consume_item"
     }
   },
-  "display": {
-    "title": {
-      "text": "That's nasty!"
-    },
-    "description": {
-      "text": "Eat some radiated food"
-    },
-    "announce_to_chat": true,
-    "frame": "task",
-    "hidden": false,
-    "icon": {
-      "item": "minecraft:carrot",
-      "nbt": "{CustomModelData:1918002}"
-    },
-    "show_toast": true
-  },
   "requirements": [
     ["carrot","potato"]
   ],

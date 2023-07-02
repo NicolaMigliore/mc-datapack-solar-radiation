@@ -12,9 +12,6 @@
 # Initialize datapack
 execute unless score $init sr_boolean matches 1 run function sr:init
 
-# Check for time of day
-function sr:scripts/daytime_handler
-
 # Start exposure check loop and manage tag "not_covered"
 execute as @a if score $is_day sr_boolean matches 1 run function sr:scripts/exposure_handler
 
@@ -36,6 +33,14 @@ function sr:scripts/radbar/radbar_main
 function sr:scripts/decontamination/decont_main
 # Run mod radiation
 function sr:scripts/mob_radiation/mob_radiation_main
+
+# Check Advancements
+execute as @a[advancements={sr:solar_radiation/take_cover=false},tag=!not_covered] if score $is_day sr_boolean matches 1 run advancement grant @s only sr:solar_radiation/take_cover
+execute as @a[advancements={sr:solar_radiation/radiation_rookie=false}] if score @s sr_days_survived matches 5 run advancement grant @s only sr:solar_radiation/radiation_rookie
+execute as @a[advancements={sr:solar_radiation/scavenger=false}] if score @s sr_days_survived matches 20 run advancement grant @s only sr:solar_radiation/scavenger
+execute as @a[advancements={sr:solar_radiation/radiation_tamer=false}] if score @s sr_days_survived matches 50 run advancement grant @s only sr:solar_radiation/radiation_tamer
+execute as @a[advancements={sr:solar_radiation/wasteland_conqueror=false}] if score @s sr_days_survived matches 100 run advancement grant @s only sr:solar_radiation/wasteland_conqueror
+
 
 # Restart loop
 schedule function sr:main_loop 1s

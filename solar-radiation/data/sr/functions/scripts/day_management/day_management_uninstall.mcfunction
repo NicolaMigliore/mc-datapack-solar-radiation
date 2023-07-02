@@ -1,0 +1,1 @@
+scoreboard objectives remove sr_days_survived

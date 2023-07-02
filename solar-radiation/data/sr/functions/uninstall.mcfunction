@@ -27,5 +27,8 @@ function sr:scripts/radbar/radbar_uninstall
 # Uninstall Decontamination cauldron
 function sr:scripts/decontamination/decont_uninstall
 
+# Uninstall Day count
+function sr:scripts/day_management/day_management_uninstall
+
 
 datapack disable "file/sr"

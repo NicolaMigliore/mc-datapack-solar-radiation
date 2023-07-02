@@ -1,0 +1,33 @@
+{
+    "display": {
+      "icon": {
+        "item": "minecraft:carrot"
+      },
+      "title": "Cooking with flavour",
+      "description": "Decontaminate some food",
+      "frame": "goal",
+      "show_toast": true,
+      "announce_to_chat": true,
+      "hidden": false
+    },
+    "parent": "sr:solar_radiation/spice_of_life",
+    "criteria": {
+      "carrot": {
+        "trigger": "minecraft:recipe_crafted",
+        "conditions": {
+          "recipe_id": "minecraft:carrot"
+        }
+      },
+      "bread": {
+        "trigger": "minecraft:recipe_crafted",
+        "conditions": {
+          "recipe_id": "minecraft:bread"
+        }
+      }
+    },
+    "requirements": [["carrot", "bread"]],
+    "rewards": {
+    },
+    "sends_telemetry_event": false
+  }
+  

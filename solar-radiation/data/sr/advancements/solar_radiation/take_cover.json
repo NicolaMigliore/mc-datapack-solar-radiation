@@ -1,0 +1,21 @@
+{
+    "display": {
+      "icon": {
+        "item": "minecraft:stone"
+      },
+      "title": "Take cover!",
+      "description": "Keep solid blocks above your head",
+      "frame": "task",
+      "show_toast": true,
+      "announce_to_chat": true,
+      "hidden": false
+    },
+    "parent": "sr:solar_radiation/root",
+    "criteria": {
+      "take_cover": {
+        "trigger": "minecraft:impossible"
+      }
+    },
+    "sends_telemetry_event": false
+  }
+  
