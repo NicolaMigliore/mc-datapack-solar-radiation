@@ -1,1 +1,0 @@
-say "Called function from advancement"

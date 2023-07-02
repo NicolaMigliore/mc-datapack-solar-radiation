@@ -25,7 +25,7 @@ tellraw @a [{"text":"Solar Radiation Datapack uninstalled. \nUse /datapack enabl
 function sr:scripts/radbar/radbar_uninstall
 
 # Uninstall Decontamination cauldron
-function sr:scripts/decontamination/decont_uninstall
+function srfc:uninstall
 
 # Uninstall Day count
 function sr:scripts/day_management/day_management_uninstall

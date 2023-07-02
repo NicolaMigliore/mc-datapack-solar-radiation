@@ -33,7 +33,7 @@ effect clear @a
 function sr:scripts/radbar/radbar_init
 
 # Init Decontamination cauldron
-function sr:scripts/decontamination/decont_init
+function srfc:init
 
 # Init Day count
 function sr:scripts/day_management/day_management_init 

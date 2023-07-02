@@ -30,7 +30,8 @@ execute as @a run function sr:scripts/radiation/radiation_manager
 # Run radbar
 function sr:scripts/radbar/radbar_main
 # Run Decontamination
-function sr:scripts/decontamination/decont_main
+function srfc:main
+
 # Run mod radiation
 function sr:scripts/mob_radiation/mob_radiation_main
 

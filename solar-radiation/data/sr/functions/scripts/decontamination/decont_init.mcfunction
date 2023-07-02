@@ -1,2 +1,0 @@
-scoreboard objectives add sr_entity_pos dummy
-scoreboard objectives add sr_item_stacks dummy
