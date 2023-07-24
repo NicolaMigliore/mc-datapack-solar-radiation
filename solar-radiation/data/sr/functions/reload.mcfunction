@@ -13,4 +13,5 @@
 # Init message
 tellraw @a [{"text":"Solar Radiation Datapack reloading...", "color":"#77AAAA"}]
 function sr:uninstall
-function sr:init
+# function sr:init
+schedule function sr:init 3s

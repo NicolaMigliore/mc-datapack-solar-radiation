@@ -43,6 +43,3 @@ function sr:scripts/gather/gather_init
 
 # Schedule main loop
 schedule function sr:main_loop 1s
-
-# FOR DEBUG
-scoreboard objectives setdisplay sidebar sr_gather_deepslate_bricks
