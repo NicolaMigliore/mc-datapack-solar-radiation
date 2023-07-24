@@ -19,7 +19,7 @@ scoreboard objectives remove sr_damage_equipment
 scoreboard objectives remove sr_damage_levels
 scoreboard objectives remove sr_cur_cover_thickness
 
-tellraw @a [{"text":"Solar Radiation Datapack uninstalled. \nUse /datapack enable \"file/sr \" to reinstall","color":"yellow"}]
+tellraw @a [{"text":"Solar Radiation Datapack uninstalled.","color":"yellow"}]
 
 # Uninstall Radbar
 function sr:scripts/radbar/radbar_uninstall
