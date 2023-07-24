@@ -10,7 +10,7 @@
     "announce_to_chat": true,
     "hidden": false
   },
-  "parent": "sr:solar_radiation/root",
+  "parent": "sr:solar_radiation/take_cover",
   "criteria": {
     "head": {
       "trigger": "minecraft:recipe_crafted",

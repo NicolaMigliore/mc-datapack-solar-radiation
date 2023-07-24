@@ -30,5 +30,7 @@ function srfc:uninstall
 # Uninstall Day count
 function sr:scripts/day_management/day_management_uninstall
 
+# Uninstall Gather count
+function sr:scripts/gather/gather_uninstall
 
 datapack disable "file/sr"

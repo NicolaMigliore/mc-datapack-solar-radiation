@@ -1,0 +1,2 @@
+execute if score @s sr_rad_levels matches 1.. run advancement grant @s only sr:solar_radiation/survive_the_sun
+execute if score @s sr_rad_levels matches ..0 run advancement revoke @s only sr:solar_radiation/survive_the_sun_check

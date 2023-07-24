@@ -33,14 +33,14 @@ function sr:scripts/radbar/radbar_main
 function srfc:main
 
 # Run mod radiation
-function sr:scripts/mob_radiation/mob_radiation_main
+function sr:scripts/rad_transfer/rad_transfer_main
 
 # Check Advancements
 execute as @a[advancements={sr:solar_radiation/take_cover=false},tag=!not_covered] if score $is_day sr_boolean matches 1 run advancement grant @s only sr:solar_radiation/take_cover
-execute as @a[advancements={sr:solar_radiation/radiation_rookie=false}] if score @s sr_days_survived matches 5 run advancement grant @s only sr:solar_radiation/radiation_rookie
-execute as @a[advancements={sr:solar_radiation/scavenger=false}] if score @s sr_days_survived matches 20 run advancement grant @s only sr:solar_radiation/scavenger
-execute as @a[advancements={sr:solar_radiation/radiation_tamer=false}] if score @s sr_days_survived matches 50 run advancement grant @s only sr:solar_radiation/radiation_tamer
-execute as @a[advancements={sr:solar_radiation/wasteland_conqueror=false}] if score @s sr_days_survived matches 100 run advancement grant @s only sr:solar_radiation/wasteland_conqueror
+execute as @a[advancements={sr:solar_radiation/days/radiation_rookie=false}] if score @s sr_days_survived matches 5 run advancement grant @s only sr:solar_radiation/days/radiation_rookie
+execute as @a[advancements={sr:solar_radiation/dats/scavenger=false}] if score @s sr_days_survived matches 20 run advancement grant @s only sr:solar_radiation/days/scavenger
+execute as @a[advancements={sr:solar_radiation/days/radiation_tamer=false}] if score @s sr_days_survived matches 50 run advancement grant @s only sr:solar_radiation/days/radiation_tamer
+execute as @a[advancements={sr:solar_radiation/days/wasteland_conqueror=false}] if score @s sr_days_survived matches 100 run advancement grant @s only sr:solar_radiation/days/wasteland_conqueror
 
 
 # Restart loop

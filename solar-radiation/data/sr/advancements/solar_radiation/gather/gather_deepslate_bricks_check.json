@@ -1,0 +1,27 @@
+{
+    "parent": "sr:solar_radiation/root",
+    "criteria": {
+      "inventory_item_changed": {
+        "trigger": "minecraft:inventory_changed",
+        "conditions": {
+          "items": [
+            {
+              "items": ["minecraft:deepslate_bricks"],
+              "count": {
+                "min": 64
+              }
+            }
+          ]
+        }
+      }
+    },
+    "requirements": [
+      [
+        "inventory_item_changed"
+      ]
+    ],
+    "rewards": {
+        "function": "sr:scripts/gather/count_deepslate_bricks"
+    }
+  }
+  

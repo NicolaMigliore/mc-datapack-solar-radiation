@@ -1,0 +1,23 @@
+{
+    "display": {
+      "icon": {
+        "item": "minecraft:cobblestone"
+      },
+      "title": "Stone stacker",
+      "description": "Collect 10 stacks of cobblestone",
+      "frame": "task",
+      "show_toast": true,
+      "announce_to_chat": true,
+      "hidden": false
+    },
+    "parent": "sr:solar_radiation/gather/gather_oak",
+    "criteria": {
+      "stone": {
+        "trigger": "impossible"
+      }
+    },
+    "rewards": {
+      "experience": 50
+    }
+  }
+  

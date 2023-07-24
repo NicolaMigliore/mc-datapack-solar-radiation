@@ -38,8 +38,11 @@ function srfc:init
 # Init Day count
 function sr:scripts/day_management/day_management_init 
 
+# Init Gather count
+function sr:scripts/gather/gather_init
+
 # Schedule main loop
 schedule function sr:main_loop 1s
 
 # FOR DEBUG
-scoreboard objectives setdisplay sidebar sr_days_survived
+scoreboard objectives setdisplay sidebar sr_gather_deepslate_bricks

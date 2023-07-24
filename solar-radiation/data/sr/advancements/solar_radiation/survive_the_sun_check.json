@@ -1,0 +1,10 @@
+{
+  "criteria": {
+    "requirement": {
+      "trigger": "minecraft:used_totem"
+    }
+  },
+  "rewards": {
+    "function": "sr:scripts/advance/survive_the_sun"
+  }
+}

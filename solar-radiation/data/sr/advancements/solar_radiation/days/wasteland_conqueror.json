@@ -10,7 +10,7 @@
       "show_toast": true,
       "announce_to_chat": true
     },
-    "parent": "sr:solar_radiation/radiation_tamer",
+    "parent": "sr:solar_radiation/days/radiation_tamer",
     "criteria": {
       "requirement": {
         "trigger": "minecraft:impossible"

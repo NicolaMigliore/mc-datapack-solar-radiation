@@ -10,7 +10,7 @@
     "show_toast": true,
     "announce_to_chat": true
   },
-  "parent": "sr:solar_radiation/scavenger",
+  "parent": "sr:solar_radiation/days/scavenger",
   "criteria": {
     "requirement": {
       "trigger": "minecraft:impossible"

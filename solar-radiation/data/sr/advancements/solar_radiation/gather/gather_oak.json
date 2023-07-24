@@ -1,0 +1,22 @@
+{
+  "display": {
+    "icon": {
+      "item": "minecraft:oak_log"
+    },
+    "title": "Time to prep",
+    "description": "Collect 5 stacks of oak logs",
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "parent": "sr:solar_radiation/root",
+  "criteria": {
+    "oak": {
+      "trigger": "impossible"
+    }
+  },
+  "rewards": {
+    "experience": 50
+  }
+}

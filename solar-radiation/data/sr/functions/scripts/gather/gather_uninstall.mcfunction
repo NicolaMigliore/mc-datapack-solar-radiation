@@ -1,0 +1,4 @@
+scoreboard objectives remove sr_gather_oak_log
+scoreboard objectives remove sr_gather_cobblestone
+scoreboard objectives remove sr_gather_deepslate_bricks
+scoreboard objectives remove sr_gather_stone_bricks

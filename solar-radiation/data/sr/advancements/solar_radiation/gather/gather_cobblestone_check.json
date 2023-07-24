@@ -1,0 +1,27 @@
+{
+    "parent": "sr:solar_radiation/root",
+    "criteria": {
+      "stone": {
+        "trigger": "minecraft:inventory_changed",
+        "conditions": {
+          "items": [
+            {
+              "items": ["minecraft:cobblestone"],
+              "count": {
+                "min": 64
+              }
+            }
+          ]
+        }
+      }
+    },
+    "requirements": [
+      [
+        "stone"
+      ]
+    ],
+    "rewards": {
+        "function": "sr:scripts/gather/count_stone"
+    }
+  }
+  
