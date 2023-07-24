@@ -41,7 +41,7 @@ scoreboard players set $_sr_rad_level_2 sr_int 30
 scoreboard players set $_sr_rad_level_3 sr_int 60
 scoreboard players set $_sr_rad_level_4 sr_int 90
 scoreboard players set $_sr_rad_level_5 sr_int 120
-scoreboard players set $_sr_rad_level_6 sr_int 1800
+scoreboard players set $_sr_rad_level_6 sr_int 180
 scoreboard players set $_sr_max_rad_level sr_int 180
 scoreboard players set $_sr_max_player_count sr_int 4
 
