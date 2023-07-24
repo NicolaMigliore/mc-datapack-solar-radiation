@@ -1,0 +1,33 @@
+{
+  "parent": "sr:solar_radiation/root",
+  "criteria": {
+    "inventory_item_changed": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "tag": "logs",
+            "count": {
+              "min": 64
+            }
+          }
+        ]
+      }
+    }
+  },
+  "requirements": [["inventory_item_changed"]],
+  "display": {
+    "icon": {
+      "item": "minecraft:oak_log"
+    },
+    "title": "Time to prep",
+    "description": "Collect a stack of logs",
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "rewards": {
+    "experience": 50
+  }
+}
