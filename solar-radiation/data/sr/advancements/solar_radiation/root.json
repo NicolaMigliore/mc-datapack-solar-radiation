@@ -3,7 +3,7 @@
         "title": "Solar Radiation",
         "description": "Survive in an unforgiving radiated wasteland",
         "icon": {
-            "item": "minecraft:knowledge_book"
+            "item": "minecraft:sunflower"
         },
         "background": "minecraft:textures/block/gray_concrete.png",
         "show_toast": false,
