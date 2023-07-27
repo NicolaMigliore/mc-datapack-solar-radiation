@@ -15,5 +15,5 @@
     "announce_to_chat": true,
     "hidden": false
   },
-  "parent": "sr:solar_radiation/take_cover"
+  "parent": "sr:solar_radiation/got_rads"
 }

@@ -1,0 +1,18 @@
+{
+  "parent": "sr:solar_radiation/root",
+  "criteria": {
+    "requirement": {
+      "trigger": "minecraft:consume_item",
+      "conditions": {
+        "item": {
+          "items": [
+            "minecraft:milk_bucket"
+          ]
+        }
+      }
+    }
+  },
+  "rewards": {
+    "function": "sr:scripts/advance/drink_milk"
+  }
+}
