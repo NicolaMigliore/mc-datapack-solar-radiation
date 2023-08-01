@@ -1,0 +1,1 @@
+execute if score @s sr_rad_levels < $_sr_max_rad_level sr_int run scoreboard players add @s sr_rad_levels 1

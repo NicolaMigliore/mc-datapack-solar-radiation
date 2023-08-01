@@ -12,6 +12,7 @@
 
 # Int values
 scoreboard objectives add sr_int dummy
+
 # sr_boolean is a scoreboard that will be used to store boolean vars.
 scoreboard objectives add sr_boolean dummy
 
@@ -30,8 +31,6 @@ scoreboard objectives add sr_damage_levels dummy
 scoreboard objectives add sr_cur_cover_thickness dummy
 
 
-
-
 # Set Constants
 scoreboard players set $_end_of_day sr_int 12000
 scoreboard players set $_sr_world_height sr_int 320
@@ -45,4 +44,12 @@ scoreboard players set $_sr_rad_level_6 sr_int 180
 scoreboard players set $_sr_max_rad_level sr_int 180
 scoreboard players set $_sr_max_player_count sr_int 4
 
+# Give intro book to players
+execute as @a run function sr:scripts/give_intro_book
+
+# Set scene
+time set 12001
+
+# Install = true
+scoreboard players set $sr_installed sr_boolean 1
 tellraw @a [{"text":"Solar Radiation Datapack installed.","color":"yellow"}]

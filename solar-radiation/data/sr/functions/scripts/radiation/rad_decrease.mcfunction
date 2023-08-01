@@ -1,0 +1,1 @@
+execute if score @s sr_rad_levels matches 1.. run scoreboard players remove @s sr_rad_levels 1

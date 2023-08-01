@@ -10,25 +10,6 @@
 #                                                                   #
 #####################################################################
 
-# Initial install required scoreboard objectives
-function sr:install
-
-
-# Init message
-tellraw @a [{"text":"Solar Radiation Datapack initialized.", "color":"#77AAAA"}]
-
-# Initialize = true
-scoreboard players set $init sr_boolean 1
-
-# Give intro book to players
-execute as @a run function sr:scripts/give_intro_book
-# Set player rad level
-scoreboard players set @a sr_rad_levels 0
-
-# Set scene
-time set 12001
-effect clear @a
-
 # Init Radbar
 function sr:scripts/radbar/radbar_init
 
@@ -43,3 +24,10 @@ function sr:scripts/gather/gather_init
 
 # Schedule main loop
 schedule function sr:main_loop 1s
+
+
+# Initialize = true
+scoreboard players set $init sr_boolean 1
+
+# Init message
+tellraw @a [{"text":"Solar Radiation Datapack initialized.\nTo restart datapack, run the comand \"/function sr:restart_datapack\"", "color":"#77AAAA"}]

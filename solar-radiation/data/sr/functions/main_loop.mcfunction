@@ -9,8 +9,8 @@
 #       Main loop function gets called every game tick.             #
 #                                                                   #
 #####################################################################
-# Initialize datapack
-execute unless score $init sr_boolean matches 1 run function sr:init
+# # Initialize datapack
+# execute unless score $init sr_boolean matches 1 run function sr:init
 
 # Start exposure check loop and manage tag "not_covered"
 execute as @a if score $is_day sr_boolean matches 1 run function sr:scripts/exposure_handler
@@ -25,7 +25,8 @@ execute as @a[tag=sr_has_equipment] run tag @s remove sr_is_radiated
 execute as @a if score $is_day sr_boolean matches 0 run tag @s remove sr_is_radiated
 
 # Update radiation levels
-execute as @a run function sr:scripts/radiation/radiation_manager
+# execute as @a run function sr:scripts/radiation/radiation_manager
+function sr:scripts/radiation/radiation_manager
 
 # Run radbar
 function sr:scripts/radbar/radbar_main

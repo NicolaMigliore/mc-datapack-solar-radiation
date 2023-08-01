@@ -10,8 +10,8 @@
 #                                                                   #
 #####################################################################
 
+# scoreboard objectives remove sr_boolean
 scoreboard objectives remove sr_int
-scoreboard objectives remove sr_boolean
 scoreboard objectives remove sr_rad_levels
 scoreboard objectives remove sr_raycast
 scoreboard objectives remove sr_found_cover
@@ -35,5 +35,14 @@ function sr:scripts/day_management/day_management_uninstall
 
 # Uninstall Gather count
 function sr:scripts/gather/gather_uninstall
+
+# Remove tags
+tag @a remove sr_rad_level_0
+tag @a remove sr_rad_level_1
+tag @a remove sr_rad_level_2
+tag @a remove sr_rad_level_3
+tag @a remove sr_rad_level_4
+tag @a remove sr_rad_level_5
+tag @a remove sr_rad_level_6
 
 datapack disable "file/sr"
