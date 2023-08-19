@@ -1,5 +1,6 @@
 {
 	"type": "crafting_shaped",
+	"category": "equipment",
 	"pattern": [
         "L L",
         "LIL",
@@ -16,5 +17,6 @@
 	"result": {
 		"item": "minecraft:chainmail_chestplate",
 		"count": 1
-	}
+	},
+	"show_notification": true
 }
