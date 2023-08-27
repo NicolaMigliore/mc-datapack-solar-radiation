@@ -30,6 +30,9 @@ scoreboard objectives add sr_damage_levels dummy
 # Current shelter thickness
 scoreboard objectives add sr_cur_cover_thickness dummy
 
+# Custom crafting
+scoreboard objectives add sr_item_stacks dummy
+
 
 # Set Constants
 scoreboard players set $_end_of_day sr_int 12000

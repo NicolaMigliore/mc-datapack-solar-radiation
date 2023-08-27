@@ -36,6 +36,8 @@ function srfc:main
 # Run mod radiation
 function sr:scripts/rad_transfer/rad_transfer_main
 
+function sr:scripts/rad_decont/rad_decont_main
+
 # Check Advancements
 execute as @a[advancements={sr:solar_radiation/take_cover=false},tag=!not_covered] if score $is_day sr_boolean matches 1 run advancement grant @s only sr:solar_radiation/take_cover
 execute as @a[advancements={sr:solar_radiation/days/radiation_rookie=false}] if score @s sr_days_survived matches 5 run advancement grant @s only sr:solar_radiation/days/radiation_rookie

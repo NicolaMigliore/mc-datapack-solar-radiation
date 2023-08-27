@@ -18,6 +18,7 @@ scoreboard objectives remove sr_found_cover
 scoreboard objectives remove sr_damage_equipment
 scoreboard objectives remove sr_damage_levels
 scoreboard objectives remove sr_cur_cover_thickness
+scoreboard objectives remove sr_item_stacks
 
 tellraw @a [{"text":"Solar Radiation Datapack uninstalled.","color":"yellow"}]
 
@@ -35,6 +36,7 @@ function sr:scripts/day_management/day_management_uninstall
 
 # Uninstall Gather count
 function sr:scripts/gather/gather_uninstall
+
 
 # Remove tags
 tag @a remove sr_rad_level_0
