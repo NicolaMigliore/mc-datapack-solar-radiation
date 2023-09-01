@@ -3,3 +3,4 @@ execute as @e[type=#sr:radiation_vulnerable,predicate=sr:effect/luck] run functi
 
 # Run custom recipe check
 function sr:scripts/custom_craft/decontamination_powder/craft_item
+function sr:scripts/custom_craft/decontamination_kit/craft_item
