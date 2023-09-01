@@ -4,4 +4,6 @@ execute as @e[type=item,nbt={Item:{id:"minecraft:cauldron"}}] at @s run execute 
 execute as @e[tag=fresh_craft] at @s run execute as @e[type=item,nbt={Item:{id:"minecraft:cauldron"}},limit=1,sort=nearest] run function sr:scripts/custom_craft/decontamination_kit/remove_cauldron
 execute as @e[tag=fresh_craft] at @s run execute as @e[type=item,nbt={Item:{id:"minecraft:campfire"}},limit=1,sort=nearest] run function sr:scripts/custom_craft/decontamination_kit/remove_campfire
 
+execute at @e[tag=fresh_craft] run function sr:scripts/custom_craft/decontamination_kit/craft_animation
+
 execute as @e[tag=fresh_craft] run tag @s remove fresh_craft
