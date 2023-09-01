@@ -1,0 +1,1 @@
+execute as @e[type= minecraft:item_frame,tag=decont_kit_frame,tag=!rendered] run function sr:scripts/custom_craft/decontamination_potion/summon_decont_kit

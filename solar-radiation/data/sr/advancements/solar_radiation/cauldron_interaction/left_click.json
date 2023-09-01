@@ -1,0 +1,17 @@
+{
+    "criteria": {
+      "requirement": {
+        "trigger": "minecraft:player_hurt_entity",
+        "conditions": {
+          "entity": {
+            "type": "interaction",
+            "nbt": "{Tags:[\"decont_kit_interaction\"]}"
+          }
+        }
+      }
+    },
+    "rewards": {
+      "function": "sr:scripts/custom_craft/decontamination_potion/cauldron_hurt"
+    }
+  }
+  
