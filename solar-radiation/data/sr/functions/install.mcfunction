@@ -32,9 +32,12 @@ scoreboard objectives add sr_cur_cover_thickness dummy
 
 # Custom crafting
 scoreboard objectives add sr_item_stacks dummy
+scoreboard objectives add sr_decont_kit_lvl dummy
+scoreboard objectives add sr_decont_has_powder dummy
 
 
 # Set Constants
+scoreboard players set $_sr_const_2 sr_int 2
 scoreboard players set $_end_of_day sr_int 12000
 scoreboard players set $_sr_world_height sr_int 320
 scoreboard players set $_min_shelter sr_int 3

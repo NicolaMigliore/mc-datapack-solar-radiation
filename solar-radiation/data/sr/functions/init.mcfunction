@@ -25,6 +25,10 @@ function sr:scripts/gather/gather_init
 # Schedule main loop
 schedule function sr:main_loop 1s
 
+# Scheduel animation loop
+scoreboard players set $_sr_animation_frame sr_int 0
+schedule function sr:scripts/animations/animation_main_loop 10t
+
 
 # Initialize = true
 scoreboard players set $init sr_boolean 1

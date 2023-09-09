@@ -45,6 +45,5 @@ execute as @a[advancements={sr:solar_radiation/dats/scavenger=false}] if score @
 execute as @a[advancements={sr:solar_radiation/days/radiation_tamer=false}] if score @s sr_days_survived matches 50 run advancement grant @s only sr:solar_radiation/days/radiation_tamer
 execute as @a[advancements={sr:solar_radiation/days/wasteland_conqueror=false}] if score @s sr_days_survived matches 100 run advancement grant @s only sr:solar_radiation/days/wasteland_conqueror
 
-
 # Restart loop
 schedule function sr:main_loop 1s

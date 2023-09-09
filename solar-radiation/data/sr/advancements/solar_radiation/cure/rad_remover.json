@@ -1,0 +1,33 @@
+{
+    "display": {
+      "icon": {
+        "item": "minecraft:splash_potion",
+        "nbt": "{CustomPotionColor:760906}"
+      },
+      "title": "Rad remover",
+      "description": "Craft a Decontamination Potion"
+    },
+    "criteria": {
+      "decont_potion": {
+        "trigger": "minecraft:inventory_changed",
+        "conditions": {
+          "items": [
+            {
+              "items": [
+                "minecraft:splash_potion"
+              ],
+              "nbt": "{CustomPotionEffects:[{Id:26,Amplifier:0b,Duration:40}],CustomPotionColor:760906}"
+            }
+          ]
+        }
+      }
+    },
+    "parent":"sr:solar_radiation/cure/powder_my_nose",
+    "requirements": [
+      ["decont_potion"]
+    ],
+    "rewards": {
+        "experience": 50
+    }
+  }
+  

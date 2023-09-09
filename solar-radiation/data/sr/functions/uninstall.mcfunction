@@ -19,6 +19,8 @@ scoreboard objectives remove sr_damage_equipment
 scoreboard objectives remove sr_damage_levels
 scoreboard objectives remove sr_cur_cover_thickness
 scoreboard objectives remove sr_item_stacks
+scoreboard objectives remove sr_decont_kit_lvl
+scoreboard objectives remove sr_decont_has_powder
 
 tellraw @a [{"text":"Solar Radiation Datapack uninstalled.","color":"yellow"}]
 

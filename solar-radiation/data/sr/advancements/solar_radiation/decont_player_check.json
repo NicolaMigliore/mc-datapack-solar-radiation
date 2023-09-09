@@ -4,22 +4,16 @@
       "trigger": "minecraft:effects_changed",
       "conditions": {
         "effects": {
-          "minecraft:luck": {}
+          "minecraft:luck": {
+            "amplifier": 0
+          }
         }
       }
     }
   },
-  "display": {
-    "icon": {
-      "item": "minecraft:potion"
-    },
-    "title": "Cure",
-    "description": ""
-  },
-  
   "rewards": {
     "function": "sr:scripts/rad_decont/decont_player"
   },
-  "parent": "sr:solar_radiation/got_rads"
+  "parent": "sr:solar_radiation/cure/got_rads"
 }
   

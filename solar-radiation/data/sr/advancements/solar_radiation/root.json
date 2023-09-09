@@ -13,5 +13,11 @@
         "trigger": {
             "trigger": "minecraft:tick"
         }
+    },
+    "rewards": {
+        "loot": [
+            "sr:books/intro_book",
+            "sr:books/decont_for_dummies"
+        ]
     }
 }

@@ -16,6 +16,6 @@
     }
   },
   "rewards": {
-    "function": "sr:scripts/custom_craft/decontamination_potion/cauldron_interact"
+    "function": "sr:scripts/decontamination_brewing/add_water"
   }
 }
