@@ -20,7 +20,6 @@ tellraw @a [{"text":"Solar Radiation Datapack reloading...", "color":"#77AAAA"}]
 scoreboard objectives add sr_boolean dummy
 execute unless score $sr_installed sr_boolean matches 1 run function sr:uninstall
 execute unless score $sr_installed sr_boolean matches 1 run function sr:install
-scoreboard objectives setdisplay sidebar sr_int
 
 # Stop loop
 schedule clear sr:main_loop
