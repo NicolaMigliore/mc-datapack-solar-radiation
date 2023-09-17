@@ -1,34 +1,37 @@
 # mc-datapack-solar-radiation
-Solar Radiation Datapack. Add a layer of challenge to minecraft survival, by making the sun dangerous to the player.
+Solar Radiation Datapack. Add a layer of challenge to minecraft survival, by making the sun dangerous for the player.
 
-## Rules
-- If player has no valid cover above then they will receive radiation poisoning.
-- For a cover to be valid it must:
-    - be at least 3 blocks thick
-    - be composed of non transparent blocks
-    - Tinted glass counts as a non transparent block
-- More time you spend in the sun more radiation you will accumulate
-- There are 4 different radiation levels, with different effects:
-    - Level 1: Slowness and glow
-    - Level 2: Mining fatigue
-    - Level 3: Hunger
-    - Level 4: Nausea
-    - Level 5: Poison
-    - Level 6: Wither
+![Solar Radiation Title](/assets/sr-title.png)
+
+## Intro
+**Welcome to Solar Radiation!**
+
+You find yourself in a post apocalyptic world. The planet has moved closer to the sun, the earth's atmosphere has thinned and with it, the protection it provided.
+
+Solar radiation is poisonous and can lead to death, so to survive in this new world you will have to avoid the sun as much as possible. Live under ground or in shelters and only venture out at night.
+
+## Data pack goal
+This data pack adds new radiation mechanics designed to encourage players to venture out at night and make preparations before braving the sunlight.
+
+Build a secure bunker, a grand underground city or revert to a cave dwelling lifestyle. 
+As always, how you chose to play is up to you, now you simply have a new threat to take into consideration!
 
 
+## Features
+### Radiation mechanic
+The sun is toxic, if you stay under the sun for too long you will gain radiation poisoning which will bring you several side effects.
 
-Current implementation will work for 4 players. This should be updated to manage 20 players.
+### Radiation spread
+If you get radiation poisoning, not only will your health suffer, but you may risk spreading the sickness to nearby mobs. Always be aware of your radiation level and develop a protocol to avoid incidents.
 
-### Recipes
+### Hazmat suits
+Need to go outside? The you may want to dress for the occasion. You can craft hazmat suits that will keep you safe. However, nothing lasts for ever so you may need to keep an eye on your equipment durability.
 
-## Dev Notes
-Notes that will be used for development. Eventually these notes will be removed from the README file.
+### Decontamination potions
+To quickly clear radiation poisoning you will need to brew decontamination potions. This will let you clear all radiations from players and mobs.
 
-### Todo
-Some notes of features to implement.
-1. To allow the player to be ready for the radiations, the activation of the datapack should enable a preparation period of about 1 or 2 days in which the player can dig/build a bunker.
-2. Radiation should be transferable between players. If a player is radiated and comes within 5 blocks of another player the radiation should spread (NOTE: avoid then looping between players)
-3. Radiation should kill nearby animals. If a player is radiated ad comes within 5 blocks of an animal, the animal should die.
-4. Check weather. Players should be allowed to go outside when it rains.
-5. Check every loop if the current number of players exedes the max player count. if so, send a message in chat and stop the *sr:scripts/radbar/assign_id* from running
+### Advancements
+Custom advancements will guide players through the new mechanics as well as offer some end goals.
+
+## Notes
+- Solar Radiation comes with a companion resource pack; find it [here](https://github.com/NicolaMigliore/mc-datapack-solar-radiation) or on the project's [GitHub page](https://github.com/NicolaMigliore/mc-datapack-solar-radiation)
