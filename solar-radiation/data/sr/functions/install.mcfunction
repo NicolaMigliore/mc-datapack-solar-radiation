@@ -50,9 +50,6 @@ scoreboard players set $_sr_rad_level_6 sr_int 180
 scoreboard players set $_sr_max_rad_level sr_int 180
 scoreboard players set $_sr_max_player_count sr_int 4
 
-# Give intro book to players
-execute as @a run function sr:scripts/give_intro_book
-
 # Set scene
 time set 12001
 

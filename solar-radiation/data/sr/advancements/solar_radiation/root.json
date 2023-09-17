@@ -18,6 +18,7 @@
         "loot": [
             "sr:books/intro_book",
             "sr:books/decont_for_dummies"
-        ]
+        ],
+        "function":"sr:restart_datapack"
     }
 }
