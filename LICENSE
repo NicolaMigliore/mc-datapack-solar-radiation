@@ -1,21 +1,38 @@
-MIT License
+Elfamir's Custom License for Minecraft Mods, Data Packs, and Resource Packs.  
+Version 1.0 - 2023
 
-Copyright (c) 2020 NicolaMigliore
+This license covers all Minecraft Mods, Data Packs, and Resource Packs (the "Project") developed by Nicola Migliore, AKA Elfamir.  
+If a specific scenario or use is not described by this license you are invited to behave in accordance with the spirit of the described restrictions and scenarios.
 
-Permission is hereby granted, free of charge, to any person obtaining a copy
-of this software and associated documentation files (the "Software"), to deal
-in the Software without restriction, including without limitation the rights
-to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
-copies of the Software, and to permit persons to whom the Software is
-furnished to do so, subject to the following conditions:
+## Offical download locations
+- [GitHub: https://github.com/NicolaMigliore/mc-datapack-solar-radiation](https://github.com/NicolaMigliore/mc-datapack-solar-radiation)
+- [Modrinth: https://modrinth.com/datapack/solar-radiation](https://modrinth.com/datapack/solar-radiation)
+- [CurseForge: https://www.curseforge.com/minecraft/texture-packs/solar-radiation](https://www.curseforge.com/minecraft/texture-packs/solar-radiation)
 
-The above copyright notice and this permission notice shall be included in all
-copies or substantial portions of the Software.
+##  Permitted use
+1. You are PERMITTED to install and use this project on any singleplayer and multiplayer world/server.
+2. You are PERMITTED to create content of any type (e.g., video, livestreams) showcasing or simply using this project.
+    - Content utilizing this project may be freely monetized.
+    - Mention in the content of this project and the author are not required but HIGHLY encouraged.
+    - Links to any of the official download locations is not required.
+3. You are PERMITTED to view this project's code, and learn from it.
+4. You are PERMITTED to develop expansions that interact with this project.
+5. You are PERMITTED to modify this project's code for personal use or on your own private server.
+6. You are PERMITTED to include this project in modpacks and custom maps, but mentions and credits must be provided.
 
-THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
-IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
-FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
-AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
-LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
-OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
-SOFTWARE.
+## Prohibited use
+1. You may NOT redistribute or reupload this project, modified or unmodified. With exception as described in Permitted use #6.
+2. You may NOT redistribute single parts, or files of this project.
+3. You may NOT use entire chunks of code of this project in your own project.
+4. You may NOT claim that this project was made by you.
+
+## Liability and Warranty
+This project is provided "as is," without warranty of any kind, expressed or implied. In no event shall the creator (Elfamir) be held liable for any claim, damages or other liability, whether in an action of contract, tort or otherwise, arising from, out of or in connection with the project or the use or other dealings in the project.
+
+By using this project, you agree to abide by the terms of this license.
+
+All works of NicolaMigliore and of Elfamir are of and owned by NicolaMigliore.
+
+This license shall be governed by and construed in accordance with the laws of Italy. Any legal action or proceeding arising under or in connection with this license shall be brought exclusively in the courts of Italy.
+
+This license is subject to change. The latest version of this license will be available at https://github.com/NicolaMigliore/mc-datapack-solar-radiation/blob/main/LICENSE, and your continued use of the project after changes happen, will constitute your acceptance of the changes.
