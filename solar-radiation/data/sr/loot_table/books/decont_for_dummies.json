@@ -1,0 +1,59 @@
+{
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:written_book",
+          "functions": [
+            {
+              "function": "minecraft:set_nbt",
+              "components": {
+                "minecraft:item_name": "Decontamination for Dummies",
+                "minecraft:author": "Elfamir",
+                "minecraft:generation": 0,
+                "minecraft:custom_model_data": 1918010,
+                "minecraft:book_pages": [
+                    {
+                        "text": "Decontamination for Dummies",
+                        "bold": true,
+                        "color": "gold",
+                        "extra": [
+                            {"text": "\n\nHow to brew potions and cure radiations", "italic": true, "color": "dark_gray"},
+                            {"text": "\n\nBy Elfamir", "italic": true, "color": "dark_gray"}
+                        ]
+                    },
+                    {
+                        "text": "INDEX",
+                        "bold": true,
+                        "color": "gold",
+                        "extra": [
+                            {"text": "\n\n1. Intro", "underlined": true, "color": "dark_gray", "clickEvent": {"action": "change_page", "value": 3}},
+                            {"text": "\n2. Decont. Powder", "underlined": true, "color": "dark_gray", "clickEvent": {"action": "change_page", "value": 5}},
+                            {"text": "\n2.1. Details", "underlined": true, "color": "dark_gray", "clickEvent": {"action": "change_page", "value": 5}},
+                            {"text": "\n2.2. Preparation", "underlined": true, "color": "dark_gray", "clickEvent": {"action": "change_page", "value": 6}},
+                            {"text": "\n3. Decont. Kit", "underlined": true, "color": "dark_gray", "clickEvent": {"action": "change_page", "value": 8}},
+                            {"text": "\n3.1. Setup", "underlined": true, "color": "dark_gray", "clickEvent": {"action": "change_page", "value": 8}},
+                            {"text": "\n3.2. Placement", "underlined": true, "color": "dark_gray", "clickEvent": {"action": "change_page", "value": 9}},
+                            {"text": "\n4. Decont. Potion", "underlined": true, "color": "dark_gray", "clickEvent": {"action": "change_page", "value": 10}},
+                            {"text": "\n4.1. Brewing", "underlined": true, "color": "dark_gray", "clickEvent": {"action": "change_page", "value": 10}},
+                            {"text": "\n4.2. Usage", "underlined": true, "color": "dark_gray", "clickEvent": {"action": "change_page", "value": 12}}
+                        ]
+                    }
+                ]
+              }
+            },
+            {
+              "function": "minecraft:set_lore",
+              "lore": [
+                "Recipes and information for",
+                "all your decontamination needs"
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

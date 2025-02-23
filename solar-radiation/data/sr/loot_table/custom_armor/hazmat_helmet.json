@@ -14,7 +14,13 @@
                         },
                         {
                             "function": "set_nbt",
-                            "tag": "{display:{Name:'[{\"text\":\"Hazmat Chestplate\",\"color\":\"gold\"}]',Lore:['[{\"text\":\"Part of the hazmat suit set.\",\"color\":\"red\"}]','[{\"text\":\"If complete, the suit will protect from radiations.\",\"color\":\"red\"}]']}"
+                            "components": {
+                                "minecraft:item_name": "[{\"text\":\"Hazmat Chestplate\",\"color\":\"gold\"}]",
+                                "minecraft:lore": [
+                                    "Part of the hazmat suit set.",
+                                    "If complete, the suit will protect from radiation."
+                                ]
+                            }
                         }
                     ]
                 }
