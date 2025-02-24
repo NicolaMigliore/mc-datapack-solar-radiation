@@ -1,7 +1,7 @@
 {
   "display": {
     "icon": {
-      "item": "minecraft:diamond_block"
+      "id": "minecraft:diamond_block"
     },
     "title": "Radiation Tamer",
     "description": "Survive 50 days in the radiation wasteland",

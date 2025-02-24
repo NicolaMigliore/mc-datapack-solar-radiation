@@ -1,7 +1,7 @@
 {
   "display": {
     "icon": {
-      "item": "minecraft:chainmail_helmet"
+      "id": "minecraft:chainmail_helmet"
     },
     "title": "Start of an outfit",
     "description": "Start a new fashion trend",

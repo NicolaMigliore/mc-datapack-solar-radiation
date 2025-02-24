@@ -4,13 +4,19 @@
         "trigger": "minecraft:player_interacted_with_entity",
         "conditions": {
           "entity": {
-            "type": "interaction"
+            "type": "minecraft:interaction"
           },
           "item": {
             "items": [
               "minecraft:poisonous_potato"
             ],
-            "nbt": "{CustomModelData:1918001}"
+            "components": {
+              "custom_model_data": {
+                "floats": [
+                  1918001
+                ]
+              }
+            }
           }
         }
       }

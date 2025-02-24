@@ -14,19 +14,25 @@
                 "name": "Decontamination Kit"
               },
               {
-                "function": "minecraft:set_nbt",
+                "function": "minecraft:set_components",
                 "components": {
-                  "minecraft:item_name": "[{'text':'Decontamination Kit','color':'aqua'}]",
-                  "minecraft:custom_data": {
-                  "CustomModelData": 1918010,
-                  "EntityTag": {
-                      "Fixed": 1,
-                      "Invisible": 1,
-                      "Silent": 1,
-                      "Tags": ["decont_kit_frame"]
-                    }
+                  "item_model": "sr:decontamination_kit",
+                  "custom_model_data": {
+                      "floats": [
+                          1918010
+                      ]
+                  },
+                  "custom_name": "{\"text\":\"Decontamination Kit\",\"color\":\"aqua\"}",
+                  "entity_data": {
+                      "id":"minecraft:item_frame",
+                      "Fixed":true,
+                      "Invisible":true,
+                      "Silent":true,
+                      "Tags":[
+                          "decont_kit_frame"
+                      ]
                   }
-                }
+              }
               }
             ]
           }

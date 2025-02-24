@@ -1,8 +1,14 @@
 {
     "display": {
       "icon": {
-        "item": "minecraft:poisonous_potato",
-        "nbt": "{CustomModelData:1918001}"
+        "id": "minecraft:poisonous_potato",
+        "components": {
+          "custom_model_data": {
+            "floats": [
+              1918001
+            ]
+          }
+        }
       },
       "title": "Let me just powder my nose",
       "description": "Craft some Decontamination Powder"
@@ -16,7 +22,13 @@
               "items": [
                 "minecraft:poisonous_potato"
               ],
-              "nbt": "{CustomModelData:1918001}"
+              "components": {
+                "custom_model_data": {
+                  "floats": [
+                    1918001
+                  ]
+                }
+              }
             }
           ]
         }

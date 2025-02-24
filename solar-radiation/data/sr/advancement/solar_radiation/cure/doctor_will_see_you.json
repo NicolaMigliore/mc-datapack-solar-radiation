@@ -13,8 +13,12 @@
   },
   "display": {
     "icon": {
-      "item": "minecraft:splash_potion",
-      "nbt": "{CustomPotionColor:760906}"
+      "id": "minecraft:splash_potion",
+      "components": {
+        "minecraft:potion_contents": {
+          "custom_color": 760906
+        }
+      }
     },
     "title": "The doctor will see you now",
     "description": "Cure all radiation using a decontamination potion",

@@ -1,5 +1,4 @@
 {
-	"description": "All blocks in the vanilla game, except air blocks, for use in CanBreak/CanPlaceOn or /fill replace for example",
 	"values": [
 		"minecraft:white_stained_glass",
 		"minecraft:orange_stained_glass",
@@ -469,8 +468,8 @@
 		"minecraft:granite_slab",
 		"minecraft:granite_stairs",
 		"minecraft:granite_wall",
-		"minecraft:grass",
-		"minecraft:grass_path",
+		"minecraft:grass_block",
+		"minecraft:dirt_path",
 		"minecraft:gray_banner",
 		"minecraft:gray_bed",
 		"minecraft:gray_carpet",

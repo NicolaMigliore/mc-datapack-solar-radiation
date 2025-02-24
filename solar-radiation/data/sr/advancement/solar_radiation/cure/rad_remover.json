@@ -1,8 +1,12 @@
 {
     "display": {
       "icon": {
-        "item": "minecraft:splash_potion",
-        "nbt": "{CustomPotionColor:760906}"
+        "id": "minecraft:splash_potion",
+        "components": {
+        "minecraft:potion_contents": {
+          "custom_color": 760906
+        }
+      }
       },
       "title": "Rad remover",
       "description": "Craft a Decontamination Potion"
@@ -16,7 +20,18 @@
               "items": [
                 "minecraft:splash_potion"
               ],
-              "nbt": "{CustomPotionEffects:[{Id:26,Amplifier:0b,Duration:40}],CustomPotionColor:760906}"
+              "components": {
+                "potion_contents": {
+                  "custom_color": 760906,
+                  "custom_effects": [
+                    {
+                      "id": "minecraft:luck",
+                      "amplifier": 0,
+                      "duration": 40
+                    }
+                  ]
+                }
+              }
             }
           ]
         }

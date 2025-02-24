@@ -1,0 +1,6 @@
+{
+    "parent": "minecraft:item/chainmail_leggings",
+    "textures": {
+      "layer0": "sr:item/hazmat_leggings"
+    }
+  }

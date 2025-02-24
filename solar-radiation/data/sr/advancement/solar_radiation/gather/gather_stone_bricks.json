@@ -1,7 +1,7 @@
 {
     "display": {
       "icon": {
-        "item": "minecraft:stone_bricks"
+        "id": "minecraft:stone_bricks"
       },
       "title": "Just another block in the wall",
       "description": "Collect 5 stacks of stone bricks",

@@ -6,7 +6,7 @@
       "conditions": {
         "items": [
           {
-            "tag": "logs",
+            "items": "#minecraft:logs",
             "count": {
               "min": 64
             }
@@ -18,7 +18,7 @@
   "requirements": [["inventory_item_changed"]],
   "display": {
     "icon": {
-      "item": "minecraft:oak_log"
+      "id": "minecraft:oak_log"
     },
     "title": "Time to prep",
     "description": "Collect a stack of logs",

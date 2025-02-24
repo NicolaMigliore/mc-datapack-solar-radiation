@@ -1,7 +1,7 @@
 {
   "display": {
     "icon": {
-      "item": "minecraft:lapis_block"
+      "id": "minecraft:lapis_block"
     },
     "title": "Scavenger Extraordinaire",
     "description": "Survive 20 days in the radiation wasteland",

@@ -16,20 +16,22 @@
           "name": "Splash Potion of Decontamination"
         },
         {
-          "function": "minecraft:set_nbt",
+          "function": "minecraft:set_components",
           "components": {
-            "minecraft:item_name": "[{'text':'Splash Potion of Decontamination'}]",
+            "minecraft:item_name": "[{\"text\":\"Splash Potion of Decontamination\"}]",
             "minecraft:lore": [
-                "'Use to cure Radiation poisoning'"
+                "\"Use to cure Radiation poisoning\""
             ],
-            "minecraft:potion_effects": [
+            "potion_contents": {
+              "custom_color": 760906,
+              "custom_effects": [
                 {
-                    "effect": "minecraft:bad_omen",
-                    "amplifier": 0,
-                    "duration": 40
+                  "id": "minecraft:bad_omen",
+                  "amplifier": 0,
+                  "duration": 40
                 }
-            ],
-            "minecraft:potion_color": "#760906"
+              ]
+            }
           }
         }
       ]

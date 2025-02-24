@@ -1,7 +1,7 @@
 {
     "display": {
       "icon": {
-        "item": "minecraft:deepslate_bricks"
+        "id": "minecraft:deepslate_bricks"
       },
       "title": "Deep crate",
       "description": "Collect 5 stacks of deepslate bricks",

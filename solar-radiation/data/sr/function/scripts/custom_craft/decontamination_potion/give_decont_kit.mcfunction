@@ -1,1 +1,1 @@
-give @s item_frame{display:{Name:'{"text":"Decontamination Kit","color":"aqua"}'},CustomModelData:1918010,EntityTag:{Fixed:1b,Invisible:0b,Silent:1b,Tags:["decont_kit_frame"]}} 1
+give @s minecraft:item_frame[custom_name='{"text":"Decontamination Kit","color":"aqua"}',custom_model_data={floats:[1918010]},entity_data={id:"minecraft:item_frame",Fixed:1b,Invisible:0b,Silent:1b,Tags:["decont_kit_frame"]}] 1

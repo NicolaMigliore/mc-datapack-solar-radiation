@@ -17,7 +17,7 @@ function sr:scripts/radbar/radbar_init
 function srfc:init
 
 # Init Day count
-function sr:scripts/day_management/day_management_init 
+function sr:scripts/day_management/day_management_init
 
 # Init Gather count
 function sr:scripts/gather/gather_init

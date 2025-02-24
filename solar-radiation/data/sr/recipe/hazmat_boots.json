@@ -1,0 +1,34 @@
+{
+	"type": "crafting_shaped",
+	"category": "equipment",
+	"pattern": [
+        "L L",
+        "I I"
+	],
+	"key": {
+		"L": "minecraft:leather",
+        "I": "minecraft:iron_ingot"
+	},
+	"result": {
+		"id": "minecraft:chainmail_boots",
+		"count": 1,
+		"components": {
+			"item_model": "sr:hazmat_boots",
+			"equippable": {
+				"slot": "feet",
+				"asset_id": "sr:hazmat_suit"
+			},
+			"custom_name": "{\"text\":\"Hazmat Boots\",\"color\":\"aqua\"}",
+			"custom_model_data": {
+				"floats": [
+					100100
+				]
+			},
+			"lore": [
+				"\"Part of the hazmat suit set.\"",
+                "\"If complete, the suit will protect from radiation.\""
+			]
+		}
+	},
+	"show_notification": true
+}
