@@ -18,7 +18,7 @@
 				"slot": "legs",
 				"asset_id": "sr:hazmat_suit"
 			},
-			"custom_name": "{\"text\":\"Hazmat Leggings\",\"color\":\"aqua\"}",
+			"custom_name": "{\"text\":\"Hazmat Leggings\",\"color\":\"gold\"}",
 			"custom_model_data": {
 				"floats": [
 					100101

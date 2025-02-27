@@ -19,7 +19,7 @@
 				"slot": "head",
 				"asset_id": "sr:hazmat_suit"
 			},
-			"custom_name": "{\"text\":\"Hazmat Helmet\",\"color\":\"aqua\"}",
+			"custom_name": "{\"text\":\"Hazmat Helmet\",\"color\":\"gold\"}",
 			"custom_model_data": {
 				"floats": [
 					100103

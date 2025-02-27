@@ -18,7 +18,7 @@
 				"slot": "chest",
 				"asset_id": "sr:hazmat_suit"
 			},
-			"custom_name": "{\"text\":\"Hazmat Chestplate\",\"color\":\"aqua\"}",
+			"custom_name": "{\"text\":\"Hazmat Chestplate\",\"color\":\"gold\"}",
 			"custom_model_data": {
 				"floats": [
 					100102
