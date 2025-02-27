@@ -28,7 +28,7 @@
               "function": "minecraft:set_lore",
               "lore": [
                 [
-                  "Introduction and helpfull tips"
+                  "Introduction and helpful tips"
                 ]
               ],
               "mode": "append"

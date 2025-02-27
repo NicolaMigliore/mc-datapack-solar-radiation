@@ -31,7 +31,7 @@ function sr:scripts/radiation/radiation_manager
 # Run radbar
 function sr:scripts/radbar/radbar_main
 # Run Decontamination
-function srfc:main
+#function srfc:main
 
 # Run mod radiation
 function sr:scripts/rad_transfer/rad_transfer_main
