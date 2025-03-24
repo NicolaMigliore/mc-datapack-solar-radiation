@@ -1,0 +1,23 @@
+{
+    "display": {
+      "icon": {
+        "id": "minecraft:deepslate_bricks"
+      },
+      "title": "Deep crate",
+      "description": "Collect 5 stacks of deepslate bricks",
+      "frame": "task",
+      "show_toast": true,
+      "announce_to_chat": true,
+      "hidden": false
+    },
+    "parent": "sr:solar_radiation/gather/gather_stone_bricks",
+    "criteria": {
+      "stone": {
+        "trigger": "impossible"
+      }
+    },
+    "rewards": {
+      "experience": 100
+    }
+  }
+  

@@ -1,0 +1,22 @@
+[
+    {
+        "function": "minecraft:set_damage",
+        "damage": -0.0052,
+        "add": true,
+        "conditions": [
+            {
+                "condition": "minecraft:entity_properties",
+                "entity": "this",
+                "predicate": {
+                    "equipment": {
+                        "feet": {
+                            "components": {
+                            "minecraft:item_model": "sr:hazmat_boots"
+                            }
+                        }
+                    }
+                }
+            }
+        ]
+    }
+]

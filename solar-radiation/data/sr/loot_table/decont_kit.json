@@ -1,0 +1,43 @@
+{
+    "type": "minecraft:block",
+    "pools": [
+      {
+        "rolls": 1,
+        "entries": [
+          {
+            "type": "minecraft:item",
+            "name": "minecraft:item_frame",
+            "functions": [
+              {
+                "function": "minecraft:set_name",
+                "entity": "this",
+                "name": "Decontamination Kit"
+              },
+              {
+                "function": "minecraft:set_components",
+                "components": {
+                  "item_model": "sr:decontamination_kit",
+                  "custom_model_data": {
+                      "floats": [
+                          1918010
+                      ]
+                  },
+                  "custom_name": "{\"text\":\"Decontamination Kit\",\"color\":\"aqua\"}",
+                  "entity_data": {
+                      "id":"minecraft:item_frame",
+                      "Fixed":true,
+                      "Invisible":true,
+                      "Silent":true,
+                      "Tags":[
+                          "decont_kit_frame"
+                      ]
+                  }
+              }
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }
+  

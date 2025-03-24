@@ -1,0 +1,7 @@
+{
+    "parent": "minecraft:item/poisonous_potato",
+    "textures": {
+      "layer0": "sr:item/decontamination_powder"
+    }
+  }
+  

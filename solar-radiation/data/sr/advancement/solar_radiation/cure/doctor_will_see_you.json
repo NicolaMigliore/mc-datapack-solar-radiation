@@ -1,0 +1,33 @@
+{
+  "criteria": {
+    "requirement": {
+      "trigger": "minecraft:effects_changed",
+      "conditions": {
+        "effects": {
+          "minecraft:luck": {
+            "amplifier": 0
+          }
+        }
+      }
+    }
+  },
+  "display": {
+    "icon": {
+      "id": "minecraft:splash_potion",
+      "components": {
+        "minecraft:potion_contents": {
+          "custom_color": 760906
+        }
+      }
+    },
+    "title": "The doctor will see you now",
+    "description": "Cure all radiation using a decontamination potion",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "frame": "goal"
+  },
+  "rewards": {
+    "experience": 50
+  },
+  "parent": "sr:solar_radiation/cure/rad_remover"
+}

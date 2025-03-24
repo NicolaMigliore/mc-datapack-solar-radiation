@@ -1,0 +1,45 @@
+{
+    "display": {
+      "icon": {
+        "id": "minecraft:poisonous_potato",
+        "components": {
+          "custom_model_data": {
+            "floats": [
+              1918001
+            ]
+          }
+        }
+      },
+      "title": "Let me just powder my nose",
+      "description": "Craft some Decontamination Powder"
+    },
+    "criteria": {
+      "decont_powder": {
+        "trigger": "minecraft:inventory_changed",
+        "conditions": {
+          "items": [
+            {
+              "items": [
+                "minecraft:poisonous_potato"
+              ],
+              "components": {
+                "custom_model_data": {
+                  "floats": [
+                    1918001
+                  ]
+                }
+              }
+            }
+          ]
+        }
+      }
+    },
+    "parent":"sr:solar_radiation/cure/potion_preparation",
+    "requirements": [
+      ["decont_powder"]
+    ],
+    "rewards": {
+      "experience": 50
+    }
+  }
+  

@@ -1,9 +1,0 @@
-{
-  "parent": "minecraft:item/generated",
-  "textures": {
-    "layer0": "minecraft:item/chainmail_helmet"
-  },
-  "overrides":[
-    { "predicate": { "custom_model_data": 100001 }, "model": "item/hazmat_helmet"}
-  ]
-}

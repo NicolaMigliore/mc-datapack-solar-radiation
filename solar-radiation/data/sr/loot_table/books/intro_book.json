@@ -1,0 +1,41 @@
+{
+  "type":"advancement_reward",
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:written_book",
+          "functions": [
+            {
+              "function": "minecraft:set_components",
+              "components": {
+                "item_model": "sr:sr_book",
+                "minecraft:written_book_content": {
+                  "pages": ["[\"\",{\"text\":\"Welcome to Solar Radiation!\",\"bold\":true,\"color\":\"gold\"},{\"text\":\"\\n\",\"color\":\"black\"},{\"text\":\"You find yourself in a post apocalyptic world. The planet has moved closer to the sun, the earth's atmosphere has thinned and with it, the protection it provided. Solar radiation is poisonous and can lead to death.\",\"color\":\"dark_gray\"}]","[\"\",{\"text\":\"- How to survive?\",\"bold\":true,\"color\":\"dark_gray\"},{\"text\":\"\\nTo survive in this new world you will have to avoid the sun as much as possible. Live underground or in shelters and only venture out at night.\\nIf you must go out during the day, you will want to craft a full hazmat suit to protect yourself.\",\"color\":\"dark_gray\"}]","[\"\",{\"text\":\"- Hints\",\"bold\":true,\"color\":\"dark_gray\"},{\"text\":\"\\n1) Solar radiation will go through some matter. Always have at least 3 solid blocks above your head to avoid radiation.\\n\\n2) Monitor your radiation levels. If they get too high you will start to get radiation poisoning.\",\"color\":\"dark_gray\"}]","[{\"text\":\"3) To clear radiation poisoning, get out from under the sun. Milk can also help lower your contamination level.\\n\\n4) Wearing a hazmat suit can mean the differece between life and a painful demise. so crafting a full suit should be your priority.\",\"color\":\"dark_gray\"}]","[{\"text\":\"5) Caves offer good cover, but later on you may want to invest in a bunker or some other shelter.\\n\\n6) Radiation can radiate. I know, that's amazing!\\nStay away from other players when you are contaminated.\",\"color\":\"dark_gray\"}]","[{\"text\":\"7) Animals seem immune to direct solar radiation. However, second-hand radiation may be a different story for most animals.\",\"color\":\"dark_gray\"}]"],
+                  "title": "Welcome to Solar Radiation",
+                  "author": "Elfamir"
+                },
+                "custom_model_data": {
+                  "floats": [
+                    1918010
+                  ]
+                }
+              }
+            },
+            {
+              "function": "minecraft:set_lore",
+              "lore": [
+                [
+                  "Introduction and helpful tips"
+                ]
+              ],
+              "mode": "append"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}  

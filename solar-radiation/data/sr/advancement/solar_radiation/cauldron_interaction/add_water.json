@@ -1,0 +1,25 @@
+{
+  "criteria": {
+    "requirement": {
+      "trigger": "minecraft:player_interacted_with_entity",
+      "conditions": {
+        "entity": {
+          "type": "minecraft:interaction"
+        },
+        "item": {
+          "items": [
+            "minecraft:potion"
+          ],
+          "components": {
+            "minecraft:potion_contents": {
+              "potion": "minecraft:water"
+            } 
+          }
+        }
+      }
+    }
+  },
+  "rewards": {
+    "function": "sr:scripts/decontamination_brewing/add_water"
+  }
+}
