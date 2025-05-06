@@ -1,19 +1,23 @@
 {
+  "parent": "sr:solar_radiation/cure/got_rads",
   "criteria": {
     "requirement": {
       "trigger": "minecraft:effects_changed",
       "conditions": {
         "effects": {
           "minecraft:luck": {
-            "amplifier": 0
+            "amplifier": {
+              "min": 0
+            }
           }
         }
       }
     }
   },
+  "requirements": [
+    ["requirement"]
+  ],
   "rewards": {
     "function": "sr:scripts/rad_decont/decont_player"
-  },
-  "parent": "sr:solar_radiation/cure/got_rads"
+  }
 }
-  

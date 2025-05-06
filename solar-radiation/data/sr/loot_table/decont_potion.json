@@ -26,7 +26,7 @@
               "custom_color": 760906,
               "custom_effects": [
                 {
-                  "id": "minecraft:bad_omen",
+                  "id": "minecraft:luck",
                   "amplifier": 0,
                   "duration": 40
                 }
