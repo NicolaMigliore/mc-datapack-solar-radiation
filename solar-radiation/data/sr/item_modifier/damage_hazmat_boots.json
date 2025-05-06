@@ -1,7 +1,7 @@
 [
     {
         "function": "minecraft:set_damage",
-        "damage": -0.0052,
+        "damage": -0.007,
         "add": true,
         "conditions": [
             {
@@ -18,5 +18,24 @@
                 }
             }
         ]
+    },
+    {
+      "function": "minecraft:set_count",
+      "count": 0,
+      "conditions": [
+        {
+          "condition": "minecraft:entity_properties",
+          "entity": "this",
+          "predicate": {
+            "equipment": {
+              "feet": {
+                "components": {
+                  "damage": 195
+                }
+              }
+            }
+          }
+        }
+      ]
     }
 ]

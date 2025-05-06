@@ -18,5 +18,24 @@
                 }
             }
         ]
+    },
+    {
+      "function": "minecraft:set_count",
+      "count": 0,
+      "conditions": [
+        {
+          "condition": "minecraft:entity_properties",
+          "entity": "this",
+          "predicate": {
+            "equipment": {
+              "head": {
+                "components": {
+                  "damage": 165
+                }
+              }
+            }
+          }
+        }
+      ]
     }
 ]

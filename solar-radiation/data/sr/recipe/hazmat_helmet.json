@@ -19,7 +19,13 @@
 				"slot": "head",
 				"asset_id": "sr:hazmat_suit"
 			},
-			"custom_name": "{\"text\":\"Hazmat Helmet\",\"color\":\"gold\"}",
+			"minecraft:custom_name": {
+				"text": "Hazmat Helmet",
+				"color": "#ffd22c"
+			},
+			"custom_data": {
+				"sr:hazmat_helmet": 1
+			},
 			"custom_model_data": {
 				"floats": [
 					100103

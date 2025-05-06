@@ -18,7 +18,13 @@
 				"slot": "feet",
 				"asset_id": "sr:hazmat_suit"
 			},
-			"custom_name": "{\"text\":\"Hazmat Boots\",\"color\":\"gold\"}",
+			"minecraft:custom_name": {
+				"text": "Hazmat Boots",
+				"color": "#ffd22c"
+			},
+			"custom_data": {
+				"sr:hazmat_boots": 1
+			},
 			"custom_model_data": {
 				"floats": [
 					100100

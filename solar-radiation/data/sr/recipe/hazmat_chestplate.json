@@ -18,7 +18,13 @@
 				"slot": "chest",
 				"asset_id": "sr:hazmat_suit"
 			},
-			"custom_name": "{\"text\":\"Hazmat Chestplate\",\"color\":\"gold\"}",
+			"minecraft:custom_name": {
+				"text": "Hazmat Chestplate",
+				"color": "#ffd22c"
+			},
+			"custom_data": {
+				"sr:hazmat_chestplate": 1
+			},
 			"custom_model_data": {
 				"floats": [
 					100102
