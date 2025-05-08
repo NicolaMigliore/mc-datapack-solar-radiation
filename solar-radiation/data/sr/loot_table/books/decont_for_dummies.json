@@ -1,5 +1,5 @@
 {
-  "type":"advancement_reward",
+  "type": "minecraft:advancement_reward",
   "pools": [
     {
       "rolls": 1,
@@ -13,10 +13,316 @@
               "components": {
                 "item_model": "sr:sr_book",
                 "minecraft:written_book_content": {
-                  "pages": ["[\"\",{\"text\":\" \\n \\u0020 \"},{\"text\":\"Decontamination\\n \\u0020 \\u0020 for Dummies\",\"bold\":true,\"color\":\"gold\"},{\"text\":\"\\n\",\"color\":\"black\"},{\"text\":\" \\u0020How to brew potions\\n \\u0020and cure radiations\",\"italic\":true,\"color\":\"dark_gray\"},{\"text\":\"\\n\\n\",\"color\":\"black\"},{\"text\":\" \\u0020 \\u0020 \\u0020 By Elfamir\",\"italic\":true,\"color\":\"dark_gray\"}]","[\"\",{\"text\":\"INDEX\",\"bold\":true,\"color\":\"gold\"},{\"text\":\"\\n\\n\",\"color\":\"black\"},{\"text\":\"1. Intro\",\"underlined\":true,\"color\":\"dark_gray\",\"clickEvent\":{  \"action\":\"change_page\",  \"value\":\"3\"}},{\"text\":\"\\n\",\"color\":\"black\"},{\"text\":\"2. Decont. Powder\",\"underlined\":true,\"color\":\"dark_gray\",\"clickEvent\":{  \"action\":\"change_page\",  \"value\":\"5\"}},{\"text\":\"\\n \",\"color\":\"dark_gray\"},{\"text\":\"2.1. Delightful details of decont. powder\",\"underlined\":true,\"color\":\"dark_gray\",\"clickEvent\":{  \"action\":\"change_page\",  \"value\":\"5\"}},{\"text\":\"\\n \",\"color\":\"dark_gray\"},{\"text\":\"2.2. How to prepare the powder\",\"underlined\":true,\"color\":\"dark_gray\",\"clickEvent\":{  \"action\":\"change_page\",  \"value\":\"6\"}},{\"text\":\"\\n\",\"color\":\"dark_gray\"},{\"text\":\"3. Decont. Kit\",\"underlined\":true,\"color\":\"dark_gray\",\"clickEvent\":{  \"action\":\"change_page\",  \"value\":\"8\"}},{\"text\":\"\\n \",\"color\":\"dark_gray\"},{\"text\":\"3.1. Getting kitted out\",\"underlined\":true,\"color\":\"dark_gray\",\"clickEvent\":{  \"action\":\"change_page\",  \"value\":\"8\"}},{\"text\":\"\\n \",\"color\":\"dark_gray\"},{\"text\":\"3.2. Kit placement\",\"underlined\":true,\"color\":\"dark_gray\",\"clickEvent\":{  \"action\":\"change_page\",  \"value\":\"9\"}},{\"text\":\"\\n\",\"color\":\"dark_gray\"},{\"text\":\"4. Decont. Potion\",\"underlined\":true,\"color\":\"dark_gray\",\"clickEvent\":{  \"action\":\"change_page\",  \"value\":\"10\"}},{\"text\":\"\\n \",\"color\":\"dark_gray\"},{\"text\":\"4.1. Brewing the cure\",\"underlined\":true,\"color\":\"dark_gray\",\"clickEvent\":{  \"action\":\"change_page\",  \"value\":\"10\"}},{\"text\":\"\\n \",\"color\":\"dark_gray\"},{\"text\":\"4.2 Using the potion\",\"underlined\":true,\"color\":\"dark_gray\",\"clickEvent\":{  \"action\":\"change_page\",\"value\":\"12\"}}]","[\"\",{\"text\":\"Intro\",\"bold\":true,\"color\":\"gold\"},{\"text\":\"\\n\",\"color\":\"black\"},{\"text\":\"Decontamination potions are a vital aid for surviving the apocalypse, so you better learn how to get your hands on some and how to use them.\\n\\nDecont. potions will clear a creature\\u2019s current radiation level, preventing the\",\"color\":\"dark_gray\"}]","[{\"text\":\"radiation from spreading, but will not remove any side effects of the radiation poisoning.\\nWant to know how to brew your first batch of decont. potions?\\n\\nYou are in luck, this simple book will guide you through this multi-step process.\",\"color\":\"dark_gray\"}]","[\"\",{\"text\":\"Decont. Powder\",\"bold\":true,\"color\":\"gold\"},{\"text\":\"\\n\\n\",\"color\":\"black\"},{\"text\":\"Delightful details of decont. powder\",\"bold\":true,\"italic\":true,\"color\":\"dark_gray\"},{\"text\":\"\\nDecont. powder is the main ingredient in decont. potions.\\nTo survive the wasteland, you are going to need a way to decontaminate radiation.\\nThis all starts with decont. powder!\",\"color\":\"dark_gray\"}]","[\"\",{\"text\":\"How to prepare the power\",\"bold\":true,\"italic\":true,\"color\":\"dark_gray\"},{\"text\":\"\\n\",\"color\":\"black\"},{\"text\":\"To prepare some of this miracle powder, you will need a cauldron of water, then drop in the cauldron a piece of raw copper and a spider eye.\\n\\nYes, a spider eye, it is well documented that these little squishy\",\"color\":\"dark_gray\"}]","[{\"text\":\"spheres have many curative properties. While copper is a great conductor for radiation dispersion.\\n\\nChuck these two ingredient in a cauldron of water and your decontamination powder will be ready in no time.\",\"color\":\"dark_gray\"}]","[\"\",{\"text\":\"Decont. Kit\",\"color\":\"gold\"},{\"text\":\"\\n\\n\",\"color\":\"black\"},{\"text\":\"Getting kitted out\",\"bold\":true,\"italic\":true,\"color\":\"dark_gray\"},{\"text\":\"\\nTo brew decontamination potions, you will need a new workstation, the Decontamination Kit.\\n\\nDecont. kits can be crafted by placing a cauldron on top of a campfire in the crafting grid.\",\"color\":\"dark_gray\"}]","[\"\",{\"text\":\"Kit placement\",\"bold\":true,\"italic\":true,\"color\":\"dark_gray\"},{\"text\":\"\\n\",\"color\":\"black\"},{\"text\":\"Once you have your decontamination kit, you can place it and start using it.\\n\\nBeing a cauldron over a fire, it is advisable to place the kit on the top of a solid block.\",\"color\":\"dark_gray\"}]","[\"\",{\"text\":\"Decont. Potion\",\"bold\":true,\"color\":\"gold\"},{\"text\":\"\\n\\n\",\"color\":\"black\"},{\"text\":\"Brewing the cure\",\"bold\":true,\"italic\":true,\"color\":\"dark_gray\"},{\"text\":\"\\n\",\"color\":\"black\"},{\"text\":\"Decontamination potions will help you clean radiation from yourself and your furry friends. To brew a fresh batch of potions simply interact with a decontamination kit placing a decont. powder and a bottle of water.\",\"color\":\"dark_gray\"}]","[{\"text\":\"Then using empty bottles, you may interact with the decont. kit again and retrieve up to 3 decontamination potions.\",\"color\":\"dark_gray\"}]","[\"\",{\"text\":\"Using the Potion\",\"bold\":true,\"italic\":true,\"color\":\"dark_gray\"},{\"text\":\"\\nTo use the potions, simply throw them at the feet of the radiated creature. Decont. potions will clear all radiation from the creature, however, any side effects of the radiation poisoning will remain, so you may want to plan accordingly.\",\"color\":\"dark_gray\"}]"],
                   "title": "Decontamination for Dummies",
                   "author": "Elfamir",
-                  "generation": 0
+                  "pages": [
+                    [
+                      {
+                        "text": " \n  "
+                      },
+                      {
+                        "text": "Decontamination\n  for Dummies",
+                        "bold": true,
+                        "color": "gold"
+                      },
+                      {
+                        "text": "\n",
+                        "color": "black"
+                      },
+                      {
+                        "text": " How to brew potions\n and cure radiations",
+                        "italic": true,
+                        "color": "dark_gray"
+                      },
+                      {
+                        "text": "\n\n",
+                        "color": "black"
+                      },
+                      {
+                        "text": "   By Elfamir",
+                        "italic": true,
+                        "color": "dark_gray"
+                      }
+                    ],
+                    [
+                      {
+                        "text": "INDEX",
+                        "bold": true,
+                        "color": "gold"
+                      },
+                      {
+                        "text": "\n\n",
+                        "color": "black"
+                      },
+                      {
+                        "text": "1. Intro",
+                        "underlined": true,
+                        "color": "dark_gray",
+                        "clickEvent": {
+                          "action": "change_page",
+                          "value": 3
+                        }
+                      },
+                      {
+                        "text": "\n"
+                      },
+                      {
+                        "text": "2. Decont. Powder",
+                        "underlined": true,
+                        "color": "dark_gray",
+                        "clickEvent": {
+                          "action": "change_page",
+                          "value": 5
+                        }
+                      },
+                      {
+                        "text": "\n "
+                      },
+                      {
+                        "text": "2.1. Delightful details of decont. powder",
+                        "underlined": true,
+                        "color": "dark_gray",
+                        "clickEvent": {
+                          "action": "change_page",
+                          "value": 5
+                        }
+                      },
+                      {
+                        "text": "\n "
+                      },
+                      {
+                        "text": "2.2. How to prepare the powder",
+                        "underlined": true,
+                        "color": "dark_gray",
+                        "clickEvent": {
+                          "action": "change_page",
+                          "value": 6
+                        }
+                      },
+                      {
+                        "text": "\n"
+                      },
+                      {
+                        "text": "3. Decont. Kit",
+                        "underlined": true,
+                        "color": "dark_gray",
+                        "clickEvent": {
+                          "action": "change_page",
+                          "value": 8
+                        }
+                      },
+                      {
+                        "text": "\n "
+                      },
+                      {
+                        "text": "3.1. Getting kitted out",
+                        "underlined": true,
+                        "color": "dark_gray",
+                        "clickEvent": {
+                          "action": "change_page",
+                          "value": 8
+                        }
+                      },
+                      {
+                        "text": "\n "
+                      },
+                      {
+                        "text": "3.2. Kit placement",
+                        "underlined": true,
+                        "color": "dark_gray",
+                        "clickEvent": {
+                          "action": "change_page",
+                          "value": 9
+                        }
+                      },
+                      {
+                        "text": "\n"
+                      },
+                      {
+                        "text": "4. Decont. Potion",
+                        "underlined": true,
+                        "color": "dark_gray",
+                        "clickEvent": {
+                          "action": "change_page",
+                          "value": 10
+                        }
+                      },
+                      {
+                        "text": "\n "
+                      },
+                      {
+                        "text": "4.1. Brewing the cure",
+                        "underlined": true,
+                        "color": "dark_gray",
+                        "clickEvent": {
+                          "action": "change_page",
+                          "value": 10
+                        }
+                      },
+                      {
+                        "text": "\n "
+                      },
+                      {
+                        "text": "4.2. Using the potion",
+                        "underlined": true,
+                        "color": "dark_gray",
+                        "clickEvent": {
+                          "action": "change_page",
+                          "value": 12
+                        }
+                      }
+                    ],
+                    [
+                      {
+                        "text": "Intro",
+                        "bold": true,
+                        "color": "gold"
+                      },
+                      {
+                        "text": "\n\n",
+                        "color": "black"
+                      },
+                      {
+                        "text": "Decontamination potions are a vital aid for surviving the apocalypse, so you better learn how to get your hands on some and how to use them.\n\nDecont. potions will clear a creature's current radiation level, preventing the",
+                        "color": "dark_gray",
+                        "bold": false
+                      }
+                    ],
+                    [
+                      {
+                        "text": "radiation from spreading, but will not remove any side effects of the radiation poisoning.\nWant to know how to brew your first batch of decont. potions?\n\nYou are in luck, this simple book will guide you through this multi-step process.",
+                        "color": "dark_gray"
+                      }
+                    ],
+                    [
+                      {
+                        "text": "Decont. Powder",
+                        "bold": true,
+                        "color": "gold"
+                      },
+                      {
+                        "text": "\n\n",
+                        "color": "black"
+                      },
+                      {
+                        "text": "Delightful details of decont. powder",
+                        "bold": true,
+                        "italic": true,
+                        "color": "dark_gray"
+                      },
+                      {
+                        "text": "\nDecont. powder is the main ingredient in decont. potions.\nTo survive the wasteland, you are going to need a way to decontaminate radiation.\nThis all starts with decont. powder!",
+                        "color": "dark_gray",
+                        "bold": false
+                      }
+                    ],
+                    [
+                      {
+                        "text": "How to prepare the power",
+                        "bold": true,
+                        "italic": true,
+                        "color": "dark_gray"
+                      },
+                      {
+                        "text": "\n",
+                        "color": "black"
+                      },
+                      {
+                        "text": "To prepare some of this miracle powder, you will need a cauldron of water, then drop in the cauldron a piece of raw copper and a spider eye.\n\nYes, a spider eye, it is well documented that these little squishy",
+                        "color": "dark_gray",
+                        "bold": false
+                      }
+                    ],
+                    [
+                      {
+                        "text": "spheres have many curative properties. While copper is a great conductor for radiation dispersion.\n\nChuck these two ingredient in a cauldron of water and your decontamination powder will be ready in no time.",
+                        "color": "dark_gray"
+                      }
+                    ],
+                    [
+                      {
+                        "text": "Decont. Kit",
+                        "color": "gold"
+                      },
+                      {
+                        "text": "\n\n",
+                        "color": "black"
+                      },
+                      {
+                        "text": "Getting kitted out",
+                        "bold": true,
+                        "italic": true,
+                        "color": "dark_gray"
+                      },
+                      {
+                        "text": "\nTo brew decontamination potions, you will need a new workstation, the Decontamination Kit.\n\nDecont. kits can be crafted by placing a cauldron on top of a campfire in the crafting grid.",
+                        "color": "dark_gray",
+                        "bold": false
+                      }
+                    ],
+                    [
+                      {
+                        "text": "Kit placement",
+                        "bold": true,
+                        "italic": true,
+                        "color": "dark_gray"
+                      },
+                      {
+                        "text": "\n",
+                        "color": "black"
+                      },
+                      {
+                        "text": "Once you have your decontamination kit, you can place it and start using it.\n\nBeing a cauldron over a fire, it is advisable to place the kit on the top of a solid block.",
+                        "color": "dark_gray",
+                        "bold": false
+                      }
+                    ],
+                    [
+                      {
+                        "text": "Decont. Potion",
+                        "bold": true,
+                        "color": "gold"
+                      },
+                      {
+                        "text": "\n\n",
+                        "color": "black"
+                      },
+                      {
+                        "text": "Brewing the cure",
+                        "bold": true,
+                        "italic": true,
+                        "color": "dark_gray"
+                      },
+                      {
+                        "text": "\n",
+                        "color": "black"
+                      },
+                      {
+                        "text": "Decontamination potions will help you clean radiation from yourself and your furry friends. To brew a fresh batch of potions simply interact with a decontamination kit placing a decont. powder and a bottle of water.",
+                        "color": "dark_gray",
+                        "bold": false
+                      }
+                    ],
+                    [
+                      {
+                        "text": "Then using empty bottles, you may interact with the decont. kit again and retrieve up to 3 decontamination potions.",
+                        "color": "dark_gray"
+                      }
+                    ],
+                    [
+                      {
+                        "text": "Using the Potion",
+                        "bold": true,
+                        "italic": true,
+                        "color": "dark_gray"
+                      },
+                      {
+                        "text": "\nTo use the potions, simply throw them at the feet of the radiated creature. Decont. potions will clear all radiation from the creature, however, any side effects of the radiation poisoning will remain, so you may want to plan accordingly.",
+                        "color": "dark_gray",
+                        "bold": false
+                      }
+                    ]
+                  ]
                 },
                 "custom_model_data": {
                   "floats": [
@@ -28,8 +334,16 @@
             {
               "function": "minecraft:set_lore",
               "lore": [
-                "Recipes and information for",
-                "all your decontamination needs"
+                [
+                  {
+                    "text": "Recipes and information for"
+                  }
+                ],
+                [
+                  {
+                    "text": "all your decontamination needs"
+                  }
+                ]
               ],
               "mode": "append"
             }

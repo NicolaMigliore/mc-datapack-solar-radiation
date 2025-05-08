@@ -18,7 +18,10 @@
                     1918010
                 ]
             },
-            "custom_name": "{\"text\":\"Decontamination Kit\",\"color\":\"aqua\"}",
+			"minecraft:custom_name": {
+				"text": "Decontamination Kit TEST",
+				"color": "aqua"
+			},
             "entity_data": {
                 "id":"minecraft:item_frame",
                 "Fixed":true,
