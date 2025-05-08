@@ -27,7 +27,7 @@
       },
       "has_the_recipe": {
         "conditions": {
-          "recipe": "minecraft:chainmail_boots"
+          "recipe": "minecraft:chainmail_leggings"
         },
         "trigger": "minecraft:recipe_unlocked"
       }
@@ -41,7 +41,7 @@
     ],
     "rewards": {
       "recipes": [
-        "minecraft:chainmail_boots"
+        "sr:hazmat_leggings"
       ]
     },
     "sends_telemetry_event": false

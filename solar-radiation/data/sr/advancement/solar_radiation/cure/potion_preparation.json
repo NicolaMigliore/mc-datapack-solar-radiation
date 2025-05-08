@@ -1,45 +1,46 @@
 {
-    "display": {
-      "icon": {
-        "id": "minecraft:item_frame",
-        "components": {
-          "custom_model_data": {
-            "floats": [
-              1918010
-            ]
-          }
-        }
-      },
-      "title": "Potion preparations",
-      "description": "Craft a Decontamination Kit"
-    },
-    "criteria": {
-      "decont_kit": {
-        "trigger": "minecraft:inventory_changed",
-        "conditions": {
-          "items": [
-            {
-              "items": [
-                "minecraft:item_frame"
-              ],
-              "components": {
-                "custom_model_data": {
-                  "floats": [
-                    1918010
-                  ]
-                }
-              }
-            }
+  "display": {
+    "icon": {
+      "id": "minecraft:item_frame",
+      "components": {
+        "minecraft:custom_model_data": {
+          "floats": [
+            1918010
           ]
         }
       }
     },
-    "parent":"sr:solar_radiation/cure/got_rads",
-    "requirements": [
-      ["decont_kit"]
-    ],
-    "rewards": {
-        "experience": 50
+    "title": "Potion preparations",
+    "description": "Craft a Decontamination Kit"
+  },
+  "criteria": {
+    "decont_kit": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "minecraft:item_frame"
+            ],
+            "components": {
+              "minecraft:custom_model_data": {
+                "floats": [
+                  1918010
+                ]
+              }
+            }
+          }
+        ]
+      }
     }
+  },
+  "parent": "sr:solar_radiation/cure/got_rads",
+  "requirements": [
+    [
+      "decont_kit"
+    ]
+  ],
+  "rewards": {
+    "experience": 50
   }
-  
+}

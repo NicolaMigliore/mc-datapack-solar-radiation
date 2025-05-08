@@ -41,7 +41,7 @@
     ],
     "rewards": {
       "recipes": [
-        "minecraft:chainmail_helmet"
+        "sr:hazmat_helmet"
       ]
     },
     "sends_telemetry_event": false

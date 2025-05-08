@@ -1,5 +1,5 @@
 {
-    "parent": "minecraft:recipes/root",
+    "parent": "sr:solar_radiation/root",
     "criteria": {
       "has_iron_ingot": {
         "conditions": {
@@ -41,7 +41,7 @@
     ],
     "rewards": {
       "recipes": [
-        "minecraft:chainmail_chestplate"
+        "sr:hazmat_chestplate"
       ]
     },
     "sends_telemetry_event": false
