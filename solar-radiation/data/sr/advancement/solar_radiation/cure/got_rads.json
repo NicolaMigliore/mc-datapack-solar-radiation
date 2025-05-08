@@ -9,7 +9,7 @@
         "id": "minecraft:milk_bucket"
       },
       "title": "Got rads?",
-      "description": "Use a bucket f milk to reduce radiation poisoning",
+      "description": "Use a bucket of milk to reduce radiation poisoning",
       "frame": "task",
       "show_toast": true,
       "announce_to_chat": true,
