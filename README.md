@@ -44,5 +44,24 @@ Custom advancements will guide players through the new mechanics as well as offe
 ![Custom advancements](/assets/screenshots/04-custom-advancements.png)
 
 ## Notes
+- This checkout targets **Minecraft Java Edition 26.3**. Use the matching datapack and resource pack together; older releases are retained in `dist/`.
 - Solar Radiation comes with a companion resource pack; find it [here](https://github.com/NicolaMigliore/mc-datapack-solar-radiation) or on the project's [GitHub page](https://github.com/NicolaMigliore/mc-datapack-solar-radiation)
 - Currently supports up to 4 players (more to come in the future).
+
+## Installation for Minecraft Java 26.3
+1. Put `dist/solar-radiation_mc_26.3.zip` in your world's `datapacks` folder, replacing the previous Solar Radiation datapack.
+2. Put `dist/solar-radiation-resourcepack_mc_26.3.zip` in Minecraft's `resourcepacks` folder and enable it, replacing the previous resource pack.
+3. Open the world in Minecraft Java 26.3, or run `/reload` if it is already open. When upgrading an existing world, make a backup first.
+
+The migration updates pack metadata, the Overworld clock query, loot functions and predicates, recipe advancements, book navigation, and the decontamination kit's block states. It retains the existing radiation thresholds, crafting ingredients, and four-player limit. This version uses data pack format 121.0 and resource pack format 97.1; see the [official 26.3 release notes](https://www.minecraft.net/en-us/article/minecraft-java-edition-26-3).
+
+## Developer validation (optional)
+With Python 3 and Java 25 installed, download the official Java 26.3 server JAR and run:
+
+```text
+python scripts/validate.py --server-jar /path/to/server.jar
+```
+
+The script checks JSON, function references, and internal resource-pack references, then runs Minecraft's GameTest server in a new temporary directory. It loads the complete datapack and checks installation, day/night detection, generated items, armor durability and breakage, ingredient consumption, the luck predicate, and kit rendering and refresh. Logs and the test world stay in that temporary directory.
+
+In-game checks still needed: join and reconnect with the companion resource pack enabled, inspect item and armor textures and book links, craft the hazmat suit, test exposed versus sheltered radiation, place and brew with a decontamination kit, splash players and mobs with a decontamination potion, and repeat `/reload` with multiple players and placed kits.

@@ -1,8 +1,10 @@
-[
+{
+  "type": "minecraft:sequence",
+  "functions": [
     {
-      "function": "minecraft:set_count",
       "count": -1,
-      "add": true
+      "add": true,
+      "type": "minecraft:set_count"
     }
   ]
-  
+}

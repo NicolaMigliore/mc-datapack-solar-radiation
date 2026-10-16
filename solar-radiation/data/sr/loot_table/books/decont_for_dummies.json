@@ -7,9 +7,8 @@
         {
           "type": "minecraft:item",
           "name": "minecraft:written_book",
-          "functions": [
+          "modifier": [
             {
-              "function": "minecraft:set_components",
               "components": {
                 "item_model": "sr:sr_book",
                 "minecraft:written_book_content": {
@@ -58,9 +57,9 @@
                         "text": "1. Intro",
                         "underlined": true,
                         "color": "dark_gray",
-                        "clickEvent": {
+                        "click_event": {
                           "action": "change_page",
-                          "value": 3
+                          "page": 3
                         }
                       },
                       {
@@ -70,9 +69,9 @@
                         "text": "2. Decont. Powder",
                         "underlined": true,
                         "color": "dark_gray",
-                        "clickEvent": {
+                        "click_event": {
                           "action": "change_page",
-                          "value": 5
+                          "page": 5
                         }
                       },
                       {
@@ -82,9 +81,9 @@
                         "text": "2.1. Delightful details of decont. powder",
                         "underlined": true,
                         "color": "dark_gray",
-                        "clickEvent": {
+                        "click_event": {
                           "action": "change_page",
-                          "value": 5
+                          "page": 5
                         }
                       },
                       {
@@ -94,9 +93,9 @@
                         "text": "2.2. How to prepare the powder",
                         "underlined": true,
                         "color": "dark_gray",
-                        "clickEvent": {
+                        "click_event": {
                           "action": "change_page",
-                          "value": 6
+                          "page": 6
                         }
                       },
                       {
@@ -106,9 +105,9 @@
                         "text": "3. Decont. Kit",
                         "underlined": true,
                         "color": "dark_gray",
-                        "clickEvent": {
+                        "click_event": {
                           "action": "change_page",
-                          "value": 8
+                          "page": 8
                         }
                       },
                       {
@@ -118,9 +117,9 @@
                         "text": "3.1. Getting kitted out",
                         "underlined": true,
                         "color": "dark_gray",
-                        "clickEvent": {
+                        "click_event": {
                           "action": "change_page",
-                          "value": 8
+                          "page": 8
                         }
                       },
                       {
@@ -130,9 +129,9 @@
                         "text": "3.2. Kit placement",
                         "underlined": true,
                         "color": "dark_gray",
-                        "clickEvent": {
+                        "click_event": {
                           "action": "change_page",
-                          "value": 9
+                          "page": 9
                         }
                       },
                       {
@@ -142,9 +141,9 @@
                         "text": "4. Decont. Potion",
                         "underlined": true,
                         "color": "dark_gray",
-                        "clickEvent": {
+                        "click_event": {
                           "action": "change_page",
-                          "value": 10
+                          "page": 10
                         }
                       },
                       {
@@ -154,9 +153,9 @@
                         "text": "4.1. Brewing the cure",
                         "underlined": true,
                         "color": "dark_gray",
-                        "clickEvent": {
+                        "click_event": {
                           "action": "change_page",
-                          "value": 10
+                          "page": 10
                         }
                       },
                       {
@@ -166,9 +165,9 @@
                         "text": "4.2. Using the potion",
                         "underlined": true,
                         "color": "dark_gray",
-                        "clickEvent": {
+                        "click_event": {
                           "action": "change_page",
-                          "value": 12
+                          "page": 12
                         }
                       }
                     ],
@@ -329,10 +328,10 @@
                     1918010
                   ]
                 }
-              }
+              },
+              "type": "minecraft:set_components"
             },
             {
-              "function": "minecraft:set_lore",
               "lore": [
                 [
                   {
@@ -345,7 +344,8 @@
                   }
                 ]
               ],
-              "mode": "append"
+              "mode": "append",
+              "type": "minecraft:set_lore"
             }
           ]
         }

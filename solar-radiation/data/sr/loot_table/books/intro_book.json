@@ -1,5 +1,5 @@
 {
-  "type":"advancement_reward",
+  "type": "advancement_reward",
   "pools": [
     {
       "rolls": 1,
@@ -7,17 +7,23 @@
         {
           "type": "minecraft:item",
           "name": "minecraft:written_book",
-          "functions": [
+          "modifier": [
             {
-              "function": "minecraft:set_components",
               "components": {
                 "item_model": "sr:sr_book",
                 "minecraft:written_book_content": {
                   "pages": [
                     [
                       "",
-                      { "text": "Welcome to Solar Radiation!", "bold": true, "color": "gold" },
-                      { "text": "\n", "color": "black" },
+                      {
+                        "text": "Welcome to Solar Radiation!",
+                        "bold": true,
+                        "color": "gold"
+                      },
+                      {
+                        "text": "\n",
+                        "color": "black"
+                      },
                       {
                         "text": "You find yourself in a post apocalyptic world. The planet has moved closer to the sun, the earth's atmosphere has thinned and with it, the protection it provided. Solar radiation is poisonous and can lead to death.",
                         "color": "dark_gray"
@@ -25,7 +31,11 @@
                     ],
                     [
                       "",
-                      { "text": "- How to survive?", "bold": true, "color": "dark_gray" },
+                      {
+                        "text": "- How to survive?",
+                        "bold": true,
+                        "color": "dark_gray"
+                      },
                       {
                         "text": "\nTo survive in this new world you will have to avoid the sun as much as possible. Live underground or in shelters and only venture out at night.\nIf you must go out during the day, you will want to craft a full hazmat suit to protect yourself.",
                         "color": "dark_gray"
@@ -33,7 +43,11 @@
                     ],
                     [
                       "",
-                      { "text": "- Hints", "bold": true, "color": "dark_gray" },
+                      {
+                        "text": "- Hints",
+                        "bold": true,
+                        "color": "dark_gray"
+                      },
                       {
                         "text": "\n1) Solar radiation will go through some matter. Always have at least 3 solid blocks above your head to avoid radiation.\n\n2) Monitor your radiation levels. If they get too high you will start to get radiation poisoning.",
                         "color": "dark_gray"
@@ -66,20 +80,21 @@
                     1918010
                   ]
                 }
-              }
+              },
+              "type": "minecraft:set_components"
             },
             {
-              "function": "minecraft:set_lore",
               "lore": [
                 [
                   "Introduction and helpful tips"
                 ]
               ],
-              "mode": "append"
+              "mode": "append",
+              "type": "minecraft:set_lore"
             }
           ]
         }
       ]
     }
   ]
-}  
+}

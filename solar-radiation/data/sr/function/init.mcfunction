@@ -13,9 +13,6 @@
 # Init Radbar
 function sr:scripts/radbar/radbar_init
 
-# Init Decontamination cauldron
-function srfc:init
-
 # Init Day count
 function sr:scripts/day_management/day_management_init
 

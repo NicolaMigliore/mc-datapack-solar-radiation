@@ -1,41 +1,50 @@
-[
+{
+  "type": "minecraft:sequence",
+  "functions": [
     {
-        "function": "minecraft:set_damage",
-        "damage": -0.0046,
-        "add": true,
-        "conditions": [
-            {
-                "condition": "minecraft:entity_properties",
-                "entity": "this",
-                "predicate": {
-                    "equipment": {
-                        "legs": {
-                            "components": {
-                            "minecraft:item_model": "sr:hazmat_leggings"
-                            }
-                        }
-                    }
-                }
-            }
-        ]
-    },
-    {
-      "function": "minecraft:set_count",
-      "count": 0,
-      "conditions": [
-        {
-          "condition": "minecraft:entity_properties",
-          "entity": "this",
-          "predicate": {
-            "equipment": {
-              "legs": {
-                "components": {
-                  "damage": 225
+      "damage": -0.0046,
+      "add": true,
+      "type": "minecraft:set_damage",
+      "condition": {
+        "type": "minecraft:all_of",
+        "terms": [
+          {
+            "entity": "this",
+            "predicate": {
+              "equipment": {
+                "legs": {
+                  "components": {
+                    "minecraft:item_model": "sr:hazmat_leggings"
+                  }
                 }
               }
-            }
+            },
+            "type": "minecraft:entity_properties"
           }
-        }
-      ]
+        ]
+      }
+    },
+    {
+      "count": 0,
+      "type": "minecraft:set_count",
+      "condition": {
+        "type": "minecraft:all_of",
+        "terms": [
+          {
+            "entity": "this",
+            "predicate": {
+              "equipment": {
+                "legs": {
+                  "components": {
+                    "damage": 225
+                  }
+                }
+              }
+            },
+            "type": "minecraft:entity_properties"
+          }
+        ]
+      }
     }
-]
+  ]
+}

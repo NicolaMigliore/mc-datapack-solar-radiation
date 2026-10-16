@@ -1,21 +1,24 @@
 {
-    "criteria": {
-      "requirement": {
-        "trigger": "minecraft:player_interacted_with_entity",
-        "conditions": {
-          "entity": {
-            "type": "interaction"
-          },
-          "item": {
-            "items": [
-              "minecraft:glass_bottle"
-            ]
+  "criteria": {
+    "requirement": {
+      "trigger": "minecraft:player_interacted_with_entity",
+      "conditions": {
+        "entity": {
+          "type": "minecraft:entity_properties",
+          "entity": "this",
+          "predicate": {
+            "minecraft:entity_type": "interaction"
           }
+        },
+        "item": {
+          "items": [
+            "minecraft:glass_bottle"
+          ]
         }
       }
-    },
-    "rewards": {
-      "function": "sr:scripts/decontamination_brewing/cauldron_interact"
     }
+  },
+  "rewards": {
+    "function": "sr:scripts/decontamination_brewing/cauldron_interact"
   }
-  
+}

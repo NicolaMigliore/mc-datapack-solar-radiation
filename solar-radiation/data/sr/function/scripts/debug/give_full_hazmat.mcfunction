@@ -1,12 +1,5 @@
-
-#Give helmet
-give @p chainmail_helmet[custom_name='[{"text":"Hazmat Helmet","color":"gold"}]',lore=['{"text":"Part of the hazmat suit set.","color":"red"}','{"text":"If complete, the suit will protect from radiations.","color":"red"}'],custom_model_data={floats:[100103]},sr:hazmat_helmet=1b] 1
-
-#Give chestplate
-give @p chainmail_helmet[custom_name='{"text":"Hazmat Helmet","color":"gold"}',lore=['{"text":"Part of the hazmat suit set.","color":"red"}','{"text":"If complete, the suit will protect from radiations.","color":"red"}'],custom_model_data={floats:[100102]},sr:hazmat_chestplate=1b] 1
-
-#Give leggings
-give @p chainmail_helmet[custom_name='{"text":"Hazmat Helmet","color":"gold"}',lore=['{"text":"Part of the hazmat suit set.","color":"red"}','{"text":"If complete, the suit will protect from radiations.","color":"red"}'],custom_model_data={floats:[100101]},sr:hazmat_leggings=1b] 1
-
-#Give boots
-give @p chainmail_helmet[custom_name='{"text":"Hazmat Helmet","color":"gold"}',lore=['{"text":"Part of the hazmat suit set.","color":"red"}','{"text":"If complete, the suit will protect from radiations.","color":"red"}'],custom_model_data={floats:[100100]},sr:hazmat_boots=1b] 1
+# Give the same hazmat equipment as the crafting recipes.
+give @p minecraft:chainmail_helmet[minecraft:item_model="sr:hazmat_helmet",minecraft:equippable={"slot":"head","asset_id":"sr:hazmat_suit"},minecraft:custom_name={"text":"Hazmat Helmet","color":"#ffd22c"},minecraft:custom_data={"sr:hazmat_helmet":1},minecraft:custom_model_data={"floats":[100103]},minecraft:lore=["Part of the hazmat suit set.","If complete, the suit will protect from radiation."]] 1
+give @p minecraft:chainmail_chestplate[minecraft:item_model="sr:hazmat_chestplate",minecraft:equippable={"slot":"chest","asset_id":"sr:hazmat_suit"},minecraft:custom_name={"text":"Hazmat Chestplate","color":"#ffd22c"},minecraft:custom_data={"sr:hazmat_chestplate":1},minecraft:custom_model_data={"floats":[100102]},minecraft:lore=["Part of the hazmat suit set.","If complete, the suit will protect from radiation."]] 1
+give @p minecraft:chainmail_leggings[minecraft:item_model="sr:hazmat_leggings",minecraft:equippable={"slot":"legs","asset_id":"sr:hazmat_suit"},minecraft:custom_name={"text":"Hazmat Leggings","color":"#ffd22c"},minecraft:custom_data={"sr:hazmat_leggings":1},minecraft:custom_model_data={"floats":[100101]},minecraft:lore=["Part of the hazmat suit set.","If complete, the suit will protect from radiation."]] 1
+give @p minecraft:chainmail_boots[minecraft:item_model="sr:hazmat_boots",minecraft:equippable={"slot":"feet","asset_id":"sr:hazmat_suit"},minecraft:custom_name={"text":"Hazmat Boots","color":"#ffd22c"},minecraft:custom_data={"sr:hazmat_boots":1},minecraft:custom_model_data={"floats":[100100]},minecraft:lore=["Part of the hazmat suit set.","If complete, the suit will protect from radiation."]] 1

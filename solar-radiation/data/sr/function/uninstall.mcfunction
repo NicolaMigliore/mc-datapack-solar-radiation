@@ -30,9 +30,6 @@ schedule clear sr:main_loop
 # Uninstall Radbar
 function sr:scripts/radbar/radbar_uninstall
 
-# Uninstall Decontamination cauldron
-function srfc:uninstall
-
 # Uninstall Day count
 function sr:scripts/day_management/day_management_uninstall
 

@@ -11,7 +11,7 @@
 #####################################################################
 
 # Update daytime variable
-execute store result score $daytime sr_int run time query daytime
+execute store result score $daytime sr_int run time of minecraft:overworld query minecraft:day
 
 # Set $is_day variable
 execute store success score $is_day sr_boolean if score $daytime sr_int <= $_end_of_day sr_int

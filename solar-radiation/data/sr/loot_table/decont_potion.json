@@ -1,4 +1,4 @@
-  {
+{
   "type": "minecraft:generic",
   "pools": [
     {
@@ -9,18 +9,21 @@
           "name": "minecraft:splash_potion"
         }
       ],
-      "functions": [
+      "modifier": [
         {
-          "function": "minecraft:set_name",
           "entity": "this",
-          "name": "Splash Potion of Decontamination"
+          "name": "Splash Potion of Decontamination",
+          "type": "minecraft:set_name"
         },
         {
-          "function": "minecraft:set_components",
           "components": {
-            "minecraft:item_name": "[{\"text\":\"Splash Potion of Decontamination\"}]",
+            "minecraft:item_name": [
+              {
+                "text": "Splash Potion of Decontamination"
+              }
+            ],
             "minecraft:lore": [
-                "\"Use to cure Radiation poisoning\""
+              "Use to cure Radiation poisoning"
             ],
             "potion_contents": {
               "custom_color": 760906,
@@ -32,7 +35,8 @@
                 }
               ]
             }
-          }
+          },
+          "type": "minecraft:set_components"
         }
       ]
     }

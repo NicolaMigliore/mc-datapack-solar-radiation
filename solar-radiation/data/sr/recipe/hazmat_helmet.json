@@ -1,42 +1,42 @@
 {
-	"type": "crafting_shaped",
-	"category": "equipment",
-	"pattern": [
-        "LIL",
-        "IGI",
-        "LIL"
-	],
-	"key": {
-		"L": "minecraft:leather",
-        "I": "minecraft:iron_ingot",
-        "G": "minecraft:glass"
-	},
-	"result": {
-		"id": "minecraft:chainmail_helmet",
-		"components": {
-			"item_model": "sr:hazmat_helmet",
-			"equippable": {
-				"slot": "head",
-				"asset_id": "sr:hazmat_suit"
-			},
-			"minecraft:custom_name": {
-				"text": "Hazmat Helmet",
-				"color": "#ffd22c"
-			},
-			"custom_data": {
-				"sr:hazmat_helmet": 1
-			},
-			"custom_model_data": {
-				"floats": [
-					100103
-				]
-			},
-			"lore": [
-				"\"Part of the hazmat suit set.\"",
-                "\"If complete, the suit will protect from radiation.\""
-			]
-		},
-		"count": 1
-	},
-	"show_notification": true
+  "type": "crafting_shaped",
+  "category": "equipment",
+  "pattern": [
+    "LIL",
+    "IGI",
+    "LIL"
+  ],
+  "key": {
+    "L": "minecraft:leather",
+    "I": "minecraft:iron_ingot",
+    "G": "minecraft:glass"
+  },
+  "result": {
+    "id": "minecraft:chainmail_helmet",
+    "components": {
+      "item_model": "sr:hazmat_helmet",
+      "equippable": {
+        "slot": "head",
+        "asset_id": "sr:hazmat_suit"
+      },
+      "minecraft:custom_name": {
+        "text": "Hazmat Helmet",
+        "color": "#ffd22c"
+      },
+      "custom_data": {
+        "sr:hazmat_helmet": 1
+      },
+      "custom_model_data": {
+        "floats": [
+          100103
+        ]
+      },
+      "lore": [
+        "Part of the hazmat suit set.",
+        "If complete, the suit will protect from radiation."
+      ]
+    },
+    "count": 1
+  },
+  "show_notification": true
 }

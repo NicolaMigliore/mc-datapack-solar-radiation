@@ -1,41 +1,41 @@
 {
-	"type": "crafting_shaped",
-	"category": "equipment",
-	"pattern": [
-        "L L",
-        "LIL",
-        "LIL"
-	],
-	"key": {
-		"L": "minecraft:leather",
-        "I": "minecraft:iron_ingot"
-	},
-	"result": {
-		"id": "minecraft:chainmail_chestplate",
-		"components": {
-			"item_model": "sr:hazmat_chestplate",
-			"equippable": {
-				"slot": "chest",
-				"asset_id": "sr:hazmat_suit"
-			},
-			"minecraft:custom_name": {
-				"text": "Hazmat Chestplate",
-				"color": "#ffd22c"
-			},
-			"custom_data": {
-				"sr:hazmat_chestplate": 1
-			},
-			"custom_model_data": {
-				"floats": [
-					100102
-				]
-			},
-			"lore": [
-				"\"Part of the hazmat suit set.\"",
-                "\"If complete, the suit will protect from radiation.\""
-			]
-		},
-		"count": 1
-	},
-	"show_notification": true
+  "type": "crafting_shaped",
+  "category": "equipment",
+  "pattern": [
+    "L L",
+    "LIL",
+    "LIL"
+  ],
+  "key": {
+    "L": "minecraft:leather",
+    "I": "minecraft:iron_ingot"
+  },
+  "result": {
+    "id": "minecraft:chainmail_chestplate",
+    "components": {
+      "item_model": "sr:hazmat_chestplate",
+      "equippable": {
+        "slot": "chest",
+        "asset_id": "sr:hazmat_suit"
+      },
+      "minecraft:custom_name": {
+        "text": "Hazmat Chestplate",
+        "color": "#ffd22c"
+      },
+      "custom_data": {
+        "sr:hazmat_chestplate": 1
+      },
+      "custom_model_data": {
+        "floats": [
+          100102
+        ]
+      },
+      "lore": [
+        "Part of the hazmat suit set.",
+        "If complete, the suit will protect from radiation."
+      ]
+    },
+    "count": 1
+  },
+  "show_notification": true
 }

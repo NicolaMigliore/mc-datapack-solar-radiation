@@ -1,6 +1,13 @@
 {
-    "pack":{
-        "pack_format":64,
-        "description":"Resourcepack for the Solar Radiation datapack"
-    }
+  "pack": {
+    "description": "Resourcepack for the Solar Radiation datapack",
+    "min_format": [
+      97,
+      1
+    ],
+    "max_format": [
+      97,
+      1
+    ]
+  }
 }

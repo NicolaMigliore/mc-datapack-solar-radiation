@@ -1,41 +1,50 @@
-[
+{
+  "type": "minecraft:sequence",
+  "functions": [
     {
-        "function": "minecraft:set_damage",
-        "damage": -0.007,
-        "add": true,
-        "conditions": [
-            {
-                "condition": "minecraft:entity_properties",
-                "entity": "this",
-                "predicate": {
-                    "equipment": {
-                        "head": {
-                            "components": {
-                            "minecraft:item_model": "sr:hazmat_helmet"
-                            }
-                        }
-                    }
-                }
-            }
-        ]
-    },
-    {
-      "function": "minecraft:set_count",
-      "count": 0,
-      "conditions": [
-        {
-          "condition": "minecraft:entity_properties",
-          "entity": "this",
-          "predicate": {
-            "equipment": {
-              "head": {
-                "components": {
-                  "damage": 165
+      "damage": -0.007,
+      "add": true,
+      "type": "minecraft:set_damage",
+      "condition": {
+        "type": "minecraft:all_of",
+        "terms": [
+          {
+            "entity": "this",
+            "predicate": {
+              "equipment": {
+                "head": {
+                  "components": {
+                    "minecraft:item_model": "sr:hazmat_helmet"
+                  }
                 }
               }
-            }
+            },
+            "type": "minecraft:entity_properties"
           }
-        }
-      ]
+        ]
+      }
+    },
+    {
+      "count": 0,
+      "type": "minecraft:set_count",
+      "condition": {
+        "type": "minecraft:all_of",
+        "terms": [
+          {
+            "entity": "this",
+            "predicate": {
+              "equipment": {
+                "head": {
+                  "components": {
+                    "damage": 165
+                  }
+                }
+              }
+            },
+            "type": "minecraft:entity_properties"
+          }
+        ]
+      }
     }
-]
+  ]
+}
